@@ -25,7 +25,9 @@
   --shadow:0 2px 12px rgba(0,0,0,.4);
 }
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
-html,body{margin:0;padding:0;max-width:100%;overflow-x:hidden}
+/* 注意：不要给 html/body 同时加 overflow-x:hidden —— 会让 body 变成滚动容器，
+   安卓 Chrome 上单指滑动会失效（必须两根手指）。横向溢出靠布局本身解决。 */
+html,body{margin:0;padding:0;max-width:100%}
 html{overscroll-behavior:none;-webkit-text-size-adjust:100%}
 body{overscroll-behavior-y:contain;-webkit-user-select:none;user-select:none}
 input,textarea,.ex,.zh-line,.en,.a{ -webkit-user-select:text;user-select:text }
