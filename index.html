@@ -1,0 +1,1425 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#2f6fed">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="EE术语">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="format-detection" content="telephone=no">
+<title>EE 术语积累 · 电子信息工程英语</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALQAAAC0CAYAAAA9zQYyAAAEyElEQVR4nO3dQYokRRQG4AhJEQQXg3gOr+HaE4y6kLFBceHGhRdwKTjMyhu49kTiQlEUZWRgUhpqpB2m26rqysh8f37fASZf1bz+60VGRVZ/97Nf2gbMaxfARfS2smmlVtLAmea1G3waeC1NvD/z6OaeFr6KJmZocy+V0BqZY/qjV0hozcwpvdK3mtAamdXT+lIJrZnZRFrfN6E1MptK69cucHG4tLN7a+rzWX8MmplNjiDnJLRmZpR56UWhZmbTSX1KQmtm1jJfOqE1MyWS+piE1sxsxbzkbTvYnP8bOaQzpUaPuxJaM7NVt/bm1LUtQaZb0lubU3L0eNUMrZkp29TuchDl5YaWzlQzjzwkC0MZOYhyM6GNG5RfHEpoopihifLi2XbGDSLGjtt2CqEkIwdRLAqJS2jzMylmCU0UMzRRJDRRNDRRHMEiioQmytTtFBJEQhPFbTuiSGiiaGiiGDmIIqGJIqGJPIIFESQ0UZwpJIpFIVGMHESR0ESR0ESR0ESR0ESxsUKUqYX64fFbq17/vUd/RNa6dUaOhVR6BGZvOewULqZSm/SWQkIvpFKL9JbDbTuiSOiFVEq93nJIaKJoaKJ4tt1CeqGTQL1QrbvdWDnF8+et/fp7jf/VSrWuwaKwtfbzb3P76Ms/Syy0KtW6BjM0UTx99KDSU1gr1TqahCaKhiaKReFBpQ/xSrWOJqGJIqEPiVcl9SrVugZHsK5d71NU2auoVOsKJPRBpdSrVOtoZmiiaGii2CksuPtWqdbRfNuutfbO2719/+TNi7yh73/8V1tSpVrXYFF4YZWys7c8ZmiiSOgdp15veWysXFqlTY+5xTFyEMXIseOP8d7ySGiiSOgdp15veTx99ODHn+YybVKp1tEk9MHnXz0t0yKVah3NDE0UCV0wrSrVOpqEJoqdwoq7ZpVqHczIUfBjvFKtoxk5iCKhC6ZepVpHk9BEcaaw4Dm9SrWOJqGJoqGJYlF4UOlDvFKto9lYqbhZUanWwST0wTdfv3HxN/fTL/5ue691NA+aOXjwoM4HeaVaR5PQC6rUdr1lcJeDKBqaKHYKF1RpR68XqvUuEpooFoULqpR5vWWQ0ESZul2nxVR6b3uhWu/SH374NOSlgJGDMBaFRLEoJIqEJoqnjxJFQhPFDE0UR7CIYuQgipGDKBKaKBKaKBKaKBKaKHYKiWLkIIqNFaJIaKJYFBJFQhNl908f/fa71x+3MJ988OxR26ldjxyJzZz8uo5h5AjV2z7tOqGvQj+ar0Jf1zH61cNnHjRDjF0nNHk8244oEpooGpoobtsRRUITl9DX9+DduiNBl9BEMUMTxZlCIo9gmaOJ+D6WkYMoFoVEuZnQxg6q+reNJTRRzNBEeTmh93pyh7r+07NGDuJHDotDqujH7hRqarbulY3rCBZR7pqhLRDZqn7ubTujB1tzZ8u6y0GUYxra6MFW9EvtFBo9WNtRrXrKyCGpWUtf6rsckprRTmrRcxaFkppRTu61qc9n9aekZmlnNeZ9bttJapbS1/qNlRcX9qAaLqFv5Qv+RhDuq2/tV7CkNauPrkscwZLWHKtX+Z1Cac0qNxSWPiR785+3cNy3nvZLspp7f/roC059ndvJL19UemfoaxfwDyhlpdkGYGxgAAAAAElFTkSuQmCC">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%232f6fed'/%3E%3Ctext x='16' y='22' font-size='13' text-anchor='middle' fill='white' font-family='sans-serif' font-weight='bold'%3EEE%3C/text%3E%3C/svg%3E">
+<style>
+:root{
+  --bg:#f5f6fa; --card:#ffffff; --text:#1a1d24; --muted:#6b7280; --line:#e6e8ef;
+  --brand:#2f6fed; --brand-2:#7c5cff; --ok:#16a34a; --warn:#f59e0b; --bad:#ef4444;
+  --chip:#eef2ff; --shadow:0 2px 10px rgba(20,30,60,.06); --radius:14px;
+}
+[data-theme="dark"]{
+  --bg:#0f1117; --card:#171a22; --text:#e8eaf0; --muted:#98a1b3; --line:#252a36;
+  --brand:#5b8dff; --brand-2:#9b83ff; --chip:#1f2433;
+  --shadow:0 2px 12px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;padding:0;max-width:100%;overflow-x:hidden}
+html{overscroll-behavior:none;-webkit-text-size-adjust:100%}
+body{overscroll-behavior-y:contain;-webkit-user-select:none;user-select:none}
+input,textarea,.ex,.zh-line,.en,.a{ -webkit-user-select:text;user-select:text }
+button{touch-action:manipulation}
+body{
+  background:var(--bg); color:var(--text); font:15px/1.6 -apple-system,"Segoe UI","Microsoft YaHei",system-ui,sans-serif;
+  min-height:100vh;
+}
+button,input,select,textarea{font:inherit;color:inherit}
+button{cursor:pointer;border:none;background:none}
+a{color:var(--brand)}
+
+/* ---------- 布局 ---------- */
+.app{display:grid;grid-template-columns:212px 1fr;min-height:100vh}
+.side{
+  background:var(--card); border-right:1px solid var(--line); padding:20px 14px;
+  position:sticky; top:0; height:100vh; display:flex; flex-direction:column; gap:4px;
+}
+.logo{display:flex;align-items:center;gap:9px;padding:4px 8px 18px;font-weight:700;letter-spacing:.2px}
+.logo .dot{width:26px;height:26px;border-radius:9px;background:linear-gradient(135deg,var(--brand),var(--brand-2));display:grid;place-items:center;color:#fff;font-size:13px;font-weight:800}
+.logo small{display:block;font-weight:400;color:var(--muted);font-size:11px;letter-spacing:0}
+.nav-btn{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:10px;color:var(--muted);font-size:14.5px;width:100%;text-align:left;transition:.15s}
+.nav-btn svg{width:18px;height:18px;flex:0 0 18px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.nav-btn:hover{background:var(--chip);color:var(--text)}
+.nav-btn.active{background:var(--brand);color:#fff;box-shadow:0 4px 12px rgba(47,111,237,.28)}
+.side .spacer{flex:1}
+.side .mini{font-size:11.5px;color:var(--muted);padding:0 10px;line-height:1.7}
+
+.main{padding:26px 30px 60px;max-width:1080px;width:100%;min-width:0}
+.h1{font-size:22px;font-weight:700;margin:0 0 4px}
+.sub{color:var(--muted);font-size:13.5px;margin:0 0 22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow);padding:20px}
+.grid{display:grid;gap:16px}
+.g2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.g3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.g4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:900px){.g3,.g4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){
+  .g2,.g3{grid-template-columns:1fr}
+  .g4{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ring{width:104px;height:104px;flex:0 0 104px}
+  .ring svg{width:104px;height:104px}
+  .ring .num b{font-size:21px}
+  .ring .num span{font-size:10px}
+  .hero{gap:14px}
+}
+
+/* ---------- 通用组件 ---------- */
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:7px;padding:10px 18px;border-radius:11px;font-weight:600;font-size:14.5px;transition:.15s;border:1px solid transparent}
+.btn.primary{background:var(--brand);color:#fff;box-shadow:0 4px 14px rgba(47,111,237,.3)}
+.btn.primary:hover{filter:brightness(1.07)}
+.btn.ghost{background:var(--chip);color:var(--text)}
+.btn.ghost:hover{filter:brightness(.97)}
+.btn.line{border-color:var(--line);background:transparent;color:var(--text)}
+.btn.danger{background:rgba(239,68,68,.1);color:var(--bad)}
+.btn:disabled{opacity:.45;cursor:not-allowed;box-shadow:none}
+.chip{display:inline-flex;align-items:center;gap:5px;padding:3px 9px;border-radius:999px;font-size:11.5px;background:var(--chip);color:var(--muted);font-weight:600}
+.chip.new{background:rgba(47,111,237,.12);color:var(--brand)}
+.chip.learn{background:rgba(245,158,11,.14);color:#b45309}
+.chip.rev{background:rgba(124,92,255,.14);color:#6d4aff}
+.chip.master{background:rgba(22,163,74,.13);color:var(--ok)}
+.hidden{display:none!important}
+
+/* ---------- 首页 ---------- */
+.hero{display:flex;gap:26px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.ring{position:relative;width:132px;height:132px;flex:0 0 132px}
+.ring svg{transform:rotate(-90deg)}
+.ring .num{position:absolute;inset:0;display:grid;place-items:center;text-align:center;line-height:1.15}
+.ring .num b{font-size:26px;font-weight:800}
+.ring .num span{display:block;font-size:11px;color:var(--muted)}
+.stat{padding:16px 18px;border-radius:var(--radius);background:var(--card);border:1px solid var(--line)}
+.stat .k{font-size:12px;color:var(--muted);margin-bottom:6px}
+.stat .v{font-size:24px;font-weight:800;letter-spacing:-.5px}
+.stat .v small{font-size:12px;font-weight:600;color:var(--muted);margin-left:3px}
+
+/* ---------- 学习卡 ---------- */
+.study-wrap{max-width:720px;margin:0 auto}
+.study-top{display:flex;align-items:center;gap:12px;margin-bottom:14px}
+.bar{flex:1;height:7px;background:var(--chip);border-radius:99px;overflow:hidden}
+.bar i{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--brand-2));border-radius:99px;transition:.3s}
+.qcard{background:var(--card);border:1px solid var(--line);border-radius:18px;box-shadow:var(--shadow);padding:38px 30px;min-height:310px;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;position:relative}
+.qcard .en{font-size:34px;font-weight:800;letter-spacing:-.5px;line-height:1.25;word-break:break-word}
+.qcard .en.small{font-size:25px}
+.ipa{color:var(--muted);font-size:15px;margin-top:8px;font-family:"Segoe UI",serif}
+.zh-line{font-size:22px;font-weight:700;margin-top:16px;line-height:1.4}
+.ex{color:var(--muted);font-size:14.5px;margin-top:16px;max-width:560px;line-height:1.7}
+.ex b{color:var(--text);font-weight:600}
+.hint{color:var(--muted);font-size:13px;margin-top:10px}
+.speak{position:absolute;top:14px;right:14px;width:38px;height:38px;border-radius:12px;background:var(--chip);display:grid;place-items:center;color:var(--brand)}
+.speak:hover{filter:brightness(.96)}
+.speak svg{width:19px;height:19px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.rating{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:16px}
+.rating button{padding:13px 6px;border-radius:12px;font-weight:700;font-size:14px;border:1px solid var(--line);background:var(--card);transition:.15s}
+.rating button:hover{transform:translateY(-1px)}
+.rating button small{display:block;font-weight:500;font-size:11px;color:var(--muted);margin-top:2px}
+.r0{color:var(--bad)} .r1{color:var(--warn)} .r2{color:var(--brand)} .r3{color:var(--ok)}
+.rating button.r0:hover{border-color:var(--bad);background:rgba(239,68,68,.06)}
+.rating button.r1:hover{border-color:var(--warn);background:rgba(245,158,11,.08)}
+.rating button.r2:hover{border-color:var(--brand);background:rgba(47,111,237,.07)}
+.rating button.r3:hover{border-color:var(--ok);background:rgba(22,163,74,.07)}
+.answer-input{width:100%;max-width:420px;margin:18px auto 0;padding:13px 16px;border-radius:12px;border:1.5px solid var(--line);background:var(--bg);font-size:18px;text-align:center;outline:none;letter-spacing:.3px}
+.answer-input:focus{border-color:var(--brand)}
+.verdict{margin-top:14px;font-weight:700;font-size:15px}
+.verdict.ok{color:var(--ok)} .verdict.no{color:var(--bad)}
+.opts{display:grid;gap:10px;margin-top:20px;width:100%;max-width:520px}
+.opt{padding:13px 16px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);text-align:left;font-size:15px;transition:.15s}
+.opt:hover{border-color:var(--brand)}
+.opt.right{border-color:var(--ok);background:rgba(22,163,74,.08);color:var(--ok);font-weight:700}
+.opt.wrong{border-color:var(--bad);background:rgba(239,68,68,.08);color:var(--bad);font-weight:700}
+
+/* ---------- 词库 ---------- */
+.toolbar{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+.toolbar input[type=search],.toolbar select{padding:9px 13px;border-radius:10px;border:1px solid var(--line);background:var(--card);outline:none;font-size:14px}
+.toolbar input[type=search]{min-width:220px;flex:1}
+.wlist{display:grid;gap:10px}
+.wrow{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:13px 16px;display:flex;gap:14px;align-items:flex-start}
+.wrow .l{flex:1;min-width:0}
+.wrow .en{font-weight:700;font-size:16px}
+.wrow .ipa{display:inline;margin-left:8px;font-size:12.5px}
+.wrow .zh{color:var(--muted);font-size:13.5px;margin-top:2px}
+.wrow .exs{color:var(--muted);font-size:12.5px;margin-top:5px;opacity:.85}
+.wrow .r{display:flex;gap:6px;align-items:center;flex:0 0 auto}
+.icon-btn{width:32px;height:32px;border-radius:9px;display:grid;place-items:center;color:var(--muted);background:var(--chip)}
+.icon-btn:hover{color:var(--text)}
+.icon-btn svg{width:16px;height:16px;stroke:currentColor;fill:none;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}
+.empty{text-align:center;color:var(--muted);padding:50px 0}
+
+/* ---------- 统计 ---------- */
+.heat{display:grid;grid-template-columns:repeat(15,1fr);gap:5px;max-width:520px}
+.heat i{aspect-ratio:1;border-radius:4px;background:var(--chip)}
+.heat i.l1{background:rgba(47,111,237,.25)}
+.heat i.l2{background:rgba(47,111,237,.5)}
+.heat i.l3{background:rgba(47,111,237,.75)}
+.heat i.l4{background:var(--brand)}
+.legend{display:flex;align-items:center;gap:6px;font-size:11.5px;color:var(--muted);margin-top:10px}
+.legend i{width:11px;height:11px;border-radius:3px;display:inline-block}
+.fbar{margin:9px 0}
+.fbar .t{display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px}
+.fbar .track{height:8px;background:var(--chip);border-radius:99px;overflow:hidden}
+.fbar .track i{display:block;height:100%;background:linear-gradient(90deg,var(--brand),var(--brand-2));border-radius:99px}
+
+/* ---------- 面试 ---------- */
+.iv-card{background:linear-gradient(135deg,rgba(47,111,237,.08),rgba(124,92,255,.08));border:1px solid var(--line);border-radius:18px;padding:34px 26px;text-align:center;min-height:230px;display:flex;flex-direction:column;justify-content:center}
+.iv-card .en{font-size:32px;font-weight:800}
+.timer{font-variant-numeric:tabular-nums;font-weight:800;font-size:15px;color:var(--brand)}
+.tips{font-size:13.5px;color:var(--muted);line-height:1.85}
+.tips b{color:var(--text)}
+.tpl{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px;margin-bottom:10px}
+.tpl .q{font-size:13px;color:var(--muted);margin-bottom:6px}
+.tpl .a{font-size:14px;line-height:1.75}
+.tpl .a em{color:var(--brand);font-style:normal;font-weight:600}
+
+/* ---------- 弹窗 ---------- */
+.modal{position:fixed;inset:0;background:rgba(10,15,30,.45);display:grid;place-items:center;padding:20px;z-index:50}
+.modal .box{background:var(--card);border-radius:16px;width:min(560px,100%);max-height:88vh;overflow:auto;padding:24px;box-shadow:0 20px 60px rgba(0,0,0,.35)}
+.field{margin-bottom:12px}
+.field label{display:block;font-size:12.5px;color:var(--muted);margin-bottom:5px;font-weight:600}
+.field input,.field select,.field textarea{width:100%;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--bg);outline:none}
+.field textarea{resize:vertical;min-height:120px;font-family:ui-monospace,Consolas,monospace;font-size:13px}
+.field input:focus,.field select:focus,.field textarea:focus{border-color:var(--brand)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+
+/* ---------- 提示 ---------- */
+.toast{position:fixed;left:50%;bottom:34px;transform:translate(-50%,20px);background:#1a1d24;color:#fff;padding:11px 20px;border-radius:11px;font-size:13.5px;opacity:0;pointer-events:none;transition:.25s;z-index:99}
+.toast.show{opacity:1;transform:translate(-50%,0)}
+
+/* ---------- 移动端 ---------- */
+@media(max-width:820px){
+  .app{grid-template-columns:1fr}
+  .side{position:fixed;bottom:0;top:auto;height:auto;width:100%;flex-direction:row;padding:8px;
+    padding-bottom:calc(8px + env(safe-area-inset-bottom, 0px));
+    border-right:none;border-top:1px solid var(--line);z-index:40;justify-content:space-around;
+    backdrop-filter:blur(12px);background:color-mix(in srgb, var(--card) 88%, transparent)}
+  .side .logo,.side .spacer,.side .mini{display:none}
+  .nav-btn{flex-direction:column;gap:3px;font-size:10.5px;padding:6px 4px;justify-content:center;flex:1;min-height:48px}
+  .nav-btn svg{width:21px;height:21px}
+  .main{padding:16px 14px calc(96px + env(safe-area-inset-bottom, 0px))}
+  .main .h1{font-size:20px}
+  .qcard{padding:26px 18px;min-height:280px}
+  .qcard .en{font-size:27px}
+  .qcard .zh-line{font-size:20px}
+  .qcard .ex{font-size:13.5px}
+  .rating button{padding:15px 4px;font-size:15px}
+  .rating button small{display:none}
+  .btn{padding:12px 16px;font-size:15px;min-height:46px}
+  .kbd-hint{display:none}
+  .card{padding:16px}
+  .stat .v{font-size:21px}
+}
+@media(max-width:380px){
+  .qcard .en{font-size:23px}
+  .rating button{font-size:13.5px;padding:13px 2px}
+}
+/* 卡片可点击翻面 */
+.qcard.tap{cursor:pointer}
+</style>
+</head>
+<body>
+<div class="app">
+  <aside class="side">
+    <div class="logo"><span class="dot">EE</span><span>术语积累<small>电子信息工程英语</small></span></div>
+    <button class="nav-btn active" data-view="home">
+      <svg viewBox="0 0 24 24"><path d="M3 11l9-8 9 8v9a1 1 0 0 1-1 1h-5v-6H9v6H4a1 1 0 0 1-1-1z"/></svg>今日</button>
+    <button class="nav-btn" data-view="study">
+      <svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 10h18"/></svg>学习</button>
+    <button class="nav-btn" data-view="library">
+      <svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h10"/></svg>词库</button>
+    <button class="nav-btn" data-view="stats">
+      <svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>统计</button>
+    <button class="nav-btn" data-view="interview">
+      <svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg>面试</button>
+    <button class="nav-btn" data-view="settings">
+      <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="3.2"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M19.1 4.9L17 7M7 17l-2.1 2.1"/></svg>设置</button>
+    <div class="spacer"></div>
+    <div class="mini" id="sideStat"></div>
+  </aside>
+
+  <main class="main">
+    <div id="view-home"></div>
+    <div id="view-study" class="hidden"></div>
+    <div id="view-library" class="hidden"></div>
+    <div id="view-stats" class="hidden"></div>
+    <div id="view-interview" class="hidden"></div>
+    <div id="view-settings" class="hidden"></div>
+  </main>
+</div>
+<div id="modalRoot"></div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============================================================
+   电子信息工程 英语专业术语 初始词库
+   字段：en 英文 / ipa 音标 / pos 词性 / zh 中文 / ex 例句 / exZh 例句译文
+        field 方向 / level 难度(1基础 2进阶 3面试高频)
+   如需增删，直接在应用里编辑即可（这里的只是初始值）。
+   ============================================================ */
+const SEED_WORDS = [
+
+  /* ---------------- 电路基础 ---------------- */
+  {en:"voltage", ipa:"/ˈvəʊltɪdʒ/", pos:"n.", zh:"电压", ex:"The voltage across the resistor is five volts.", exZh:"电阻两端的电压是5伏特。", field:"电路基础", level:1},
+  {en:"current", ipa:"/ˈkʌrənt/", pos:"n.", zh:"电流", ex:"A small current flows through the coil.", exZh:"有很小的电流流过线圈。", field:"电路基础", level:1},
+  {en:"resistance", ipa:"/rɪˈzɪstəns/", pos:"n.", zh:"电阻；阻力", ex:"The resistance increases with temperature.", exZh:"电阻随温度升高而增大。", field:"电路基础", level:1},
+  {en:"capacitance", ipa:"/kəˈpæsɪtəns/", pos:"n.", zh:"电容；电容量", ex:"A larger capacitance gives a slower charging process.", exZh:"电容越大，充电过程越慢。", field:"电路基础", level:2},
+  {en:"inductance", ipa:"/ɪnˈdʌktəns/", pos:"n.", zh:"电感；电感量", ex:"The inductance of the coil is about ten microhenries.", exZh:"这个线圈的电感约为10微亨。", field:"电路基础", level:2},
+  {en:"impedance", ipa:"/ɪmˈpiːdəns/", pos:"n.", zh:"阻抗", ex:"We matched the impedance to reduce reflection.", exZh:"我们做了阻抗匹配以减少反射。", field:"电路基础", level:2},
+  {en:"alternating current", ipa:"/ˈɔːltəneɪtɪŋ ˈkʌrənt/", pos:"n.", zh:"交流电（AC）", ex:"The mains supply is alternating current at fifty hertz.", exZh:"市电是50赫兹的交流电。", field:"电路基础", level:1},
+  {en:"direct current", ipa:"/dəˈrekt ˈkʌrənt/", pos:"n.", zh:"直流电（DC）", ex:"The battery provides direct current.", exZh:"电池提供直流电。", field:"电路基础", level:1},
+  {en:"rectifier", ipa:"/ˈrektɪfaɪə/", pos:"n.", zh:"整流器；整流电路", ex:"A bridge rectifier converts AC into DC.", exZh:"桥式整流器把交流电转换为直流电。", field:"电路基础", level:2},
+  {en:"amplifier", ipa:"/ˈæmplɪfaɪə/", pos:"n.", zh:"放大器", ex:"The amplifier has a voltage gain of twenty.", exZh:"该放大器的电压增益为20。", field:"电路基础", level:1},
+  {en:"transistor", ipa:"/trænˈzɪstə/", pos:"n.", zh:"晶体管；三极管", ex:"The transistor works as a switch in this circuit.", exZh:"在这个电路中晶体管用作开关。", field:"电路基础", level:1},
+  {en:"diode", ipa:"/ˈdaɪəʊd/", pos:"n.", zh:"二极管", ex:"A diode allows current to flow in only one direction.", exZh:"二极管只允许电流单向流动。", field:"电路基础", level:1},
+  {en:"operational amplifier", ipa:"/ˌɒpəˈreɪʃənl ˈæmplɪfaɪə/", pos:"n.", zh:"运算放大器（运放）", ex:"The operational amplifier is configured as a non-inverting amplifier.", exZh:"该运算放大器连接成同相放大电路。", field:"电路基础", level:2},
+  {en:"feedback", ipa:"/ˈfiːdbæk/", pos:"n.", zh:"反馈", ex:"Negative feedback improves the stability of the circuit.", exZh:"负反馈提高了电路的稳定性。", field:"电路基础", level:1},
+  {en:"oscillator", ipa:"/ˈɒsɪleɪtə/", pos:"n.", zh:"振荡器", ex:"The crystal oscillator provides a stable clock.", exZh:"晶体振荡器提供稳定的时钟。", field:"电路基础", level:2},
+  {en:"filter", ipa:"/ˈfɪltə/", pos:"n./v.", zh:"滤波器；滤波", ex:"A low-pass filter removes the high-frequency noise.", exZh:"低通滤波器去除高频噪声。", field:"电路基础", level:1},
+  {en:"bandwidth", ipa:"/ˈbændwɪdθ/", pos:"n.", zh:"带宽", ex:"The bandwidth of the channel is twenty megahertz.", exZh:"该信道的带宽是20兆赫兹。", field:"电路基础", level:2},
+  {en:"gain", ipa:"/ɡeɪn/", pos:"n.", zh:"增益", ex:"We increased the gain to boost the weak signal.", exZh:"我们提高增益以放大微弱信号。", field:"电路基础", level:1},
+  {en:"signal-to-noise ratio", ipa:"/ˈsɪɡnəl tə nɔɪz ˈreɪʃiəʊ/", pos:"n.", zh:"信噪比（SNR）", ex:"A higher signal-to-noise ratio means cleaner data.", exZh:"信噪比越高，数据越干净。", field:"电路基础", level:2},
+  {en:"printed circuit board", ipa:"/ˈprɪntɪd ˈsɜːkɪt bɔːd/", pos:"n.", zh:"印制电路板（PCB）", ex:"I designed a four-layer printed circuit board for the project.", exZh:"我为这个项目设计了一块四层PCB板。", field:"电路基础", level:1},
+  {en:"integrated circuit", ipa:"/ˈɪntɪɡreɪtɪd ˈsɜːkɪt/", pos:"n.", zh:"集成电路（IC）", ex:"The integrated circuit contains millions of transistors.", exZh:"这块集成电路包含数百万个晶体管。", field:"电路基础", level:1},
+  {en:"semiconductor", ipa:"/ˌsemikənˈdʌktə/", pos:"n.", zh:"半导体", ex:"Silicon is the most widely used semiconductor material.", exZh:"硅是最常用的半导体材料。", field:"电路基础", level:2},
+  {en:"PN junction", ipa:"/ˌpiː ˈen ˈdʒʌŋkʃn/", pos:"n.", zh:"PN结", ex:"The PN junction is the basis of most diodes.", exZh:"PN结是大多数二极管的基础。", field:"电路基础", level:3},
+  {en:"Kirchhoff's laws", ipa:"/ˈkɜːxkɒfs lɔːz/", pos:"n.", zh:"基尔霍夫定律", ex:"We solved the loop current using Kirchhoff's laws.", exZh:"我们用基尔霍夫定律求出了回路电流。", field:"电路基础", level:3},
+  {en:"Ohm's law", ipa:"/əʊmz lɔː/", pos:"n.", zh:"欧姆定律", ex:"According to Ohm's law, current equals voltage divided by resistance.", exZh:"根据欧姆定律，电流等于电压除以电阻。", field:"电路基础", level:1},
+  {en:"capacitor", ipa:"/kəˈpæsɪtə/", pos:"n.", zh:"电容器", ex:"The capacitor stores energy in an electric field.", exZh:"电容器以电场的形式储存能量。", field:"电路基础", level:1},
+  {en:"resistor", ipa:"/rɪˈzɪstə/", pos:"n.", zh:"电阻器", ex:"A pull-up resistor keeps the pin at a high level.", exZh:"上拉电阻使引脚保持高电平。", field:"电路基础", level:1},
+  {en:"inductor", ipa:"/ɪnˈdʌktə/", pos:"n.", zh:"电感器", ex:"The inductor opposes any change in current.", exZh:"电感器阻碍电流的任何变化。", field:"电路基础", level:2},
+  {en:"transformer", ipa:"/trænsˈfɔːmə/", pos:"n.", zh:"变压器", ex:"A transformer steps down the voltage to twelve volts.", exZh:"变压器把电压降到12伏。", field:"电路基础", level:1},
+
+  /* ---------------- 信号与系统 ---------------- */
+  {en:"signal", ipa:"/ˈsɪɡnəl/", pos:"n.", zh:"信号", ex:"We sampled the analog signal at one kilohertz.", exZh:"我们以1千赫兹对模拟信号进行采样。", field:"信号与系统", level:1},
+  {en:"system", ipa:"/ˈsɪstəm/", pos:"n.", zh:"系统", ex:"A linear time-invariant system has a simple response.", exZh:"线性时不变系统的响应比较简单。", field:"信号与系统", level:1},
+  {en:"Fourier transform", ipa:"/ˈfʊrieɪ trænsˈfɔːm/", pos:"n.", zh:"傅里叶变换", ex:"The Fourier transform converts the signal from time domain to frequency domain.", exZh:"傅里叶变换把信号从时域转换到频域。", field:"信号与系统", level:2},
+  {en:"Laplace transform", ipa:"/ləˈplɑːs trænsˈfɔːm/", pos:"n.", zh:"拉普拉斯变换", ex:"We used the Laplace transform to solve the differential equation.", exZh:"我们用拉普拉斯变换求解这个微分方程。", field:"信号与系统", level:3},
+  {en:"z-transform", ipa:"/ˌzed ˈtrænsfɔːm/", pos:"n.", zh:"Z变换", ex:"The z-transform is widely used in discrete-time system analysis.", exZh:"Z变换广泛用于离散时间系统分析。", field:"信号与系统", level:3},
+  {en:"convolution", ipa:"/ˌkɒnvəˈluːʃn/", pos:"n.", zh:"卷积", ex:"The output equals the convolution of the input and the impulse response.", exZh:"输出等于输入与冲激响应的卷积。", field:"信号与系统", level:3},
+  {en:"sampling", ipa:"/ˈsɑːmplɪŋ/", pos:"n.", zh:"采样；抽样", ex:"The sampling rate must be higher than twice the maximum frequency.", exZh:"采样率必须高于最高频率的两倍。", field:"信号与系统", level:1},
+  {en:"aliasing", ipa:"/ˈeɪliəsɪŋ/", pos:"n.", zh:"混叠", ex:"Aliasing occurs when the sampling rate is too low.", exZh:"采样率过低时会出现混叠。", field:"信号与系统", level:3},
+  {en:"Nyquist frequency", ipa:"/ˈnaɪkwɪst ˈfriːkwənsi/", pos:"n.", zh:"奈奎斯特频率", ex:"The filter cutoff must stay below the Nyquist frequency.", exZh:"滤波器截止频率必须低于奈奎斯特频率。", field:"信号与系统", level:3},
+  {en:"quantization", ipa:"/ˌkwɒntɪˈzeɪʃn/", pos:"n.", zh:"量化", ex:"Quantization error limits the resolution of the ADC.", exZh:"量化误差限制了ADC的分辨率。", field:"信号与系统", level:2},
+  {en:"spectrum", ipa:"/ˈspektrəm/", pos:"n.", zh:"频谱；光谱", ex:"The spectrum shows a strong component at fifty hertz.", exZh:"频谱在50赫兹处有一个很强的分量。", field:"信号与系统", level:2},
+  {en:"frequency response", ipa:"/ˈfriːkwənsi rɪˈspɒns/", pos:"n.", zh:"频率响应", ex:"We measured the frequency response of the filter.", exZh:"我们测量了该滤波器的频率响应。", field:"信号与系统", level:2},
+  {en:"impulse response", ipa:"/ˈɪmpʌls rɪˈspɒns/", pos:"n.", zh:"冲激响应", ex:"The impulse response fully describes a linear system.", exZh:"冲激响应可以完整描述一个线性系统。", field:"信号与系统", level:3},
+  {en:"transfer function", ipa:"/ˈtrænsfɜː ˈfʌŋkʃn/", pos:"n.", zh:"传递函数", ex:"The transfer function of this filter has two poles.", exZh:"这个滤波器的传递函数有两个极点。", field:"信号与系统", level:3},
+  {en:"discrete-time signal", ipa:"/dɪˈskriːt taɪm ˈsɪɡnəl/", pos:"n.", zh:"离散时间信号", ex:"A discrete-time signal is defined only at integer instants.", exZh:"离散时间信号只在整数时刻有定义。", field:"信号与系统", level:2},
+  {en:"time domain", ipa:"/taɪm dəˈmeɪn/", pos:"n.", zh:"时域", ex:"In the time domain the signal looks like a decaying oscillation.", exZh:"在时域上这个信号看起来像衰减振荡。", field:"信号与系统", level:1},
+  {en:"digital signal processing", ipa:"/ˈdɪdʒɪtl ˈsɪɡnəl prəˈsesɪŋ/", pos:"n.", zh:"数字信号处理（DSP）", ex:"Digital signal processing makes real-time filtering possible.", exZh:"数字信号处理使实时滤波成为可能。", field:"信号与系统", level:1},
+  {en:"fast Fourier transform", ipa:"/fɑːst ˈfʊrieɪ trænsˈfɔːm/", pos:"n.", zh:"快速傅里叶变换（FFT）", ex:"The fast Fourier transform reduces the computation from N squared to N log N.", exZh:"FFT把计算量从N的平方降到NlogN。", field:"信号与系统", level:2},
+  {en:"windowing", ipa:"/ˈwɪndəʊɪŋ/", pos:"n.", zh:"加窗", ex:"Windowing reduces spectral leakage in the FFT result.", exZh:"加窗可以减少FFT结果中的频谱泄漏。", field:"信号与系统", level:3},
+
+  /* ---------------- 通信原理 ---------------- */
+  {en:"modulation", ipa:"/ˌmɒdjuˈleɪʃn/", pos:"n.", zh:"调制", ex:"The modulation scheme improves spectral efficiency.", exZh:"该调制方案提高了频谱效率。", field:"通信原理", level:1},
+  {en:"demodulation", ipa:"/diːˌmɒdjuˈleɪʃn/", pos:"n.", zh:"解调", ex:"Demodulation recovers the baseband information.", exZh:"解调恢复出基带信息。", field:"通信原理", level:2},
+  {en:"carrier", ipa:"/ˈkæriə/", pos:"n.", zh:"载波", ex:"The carrier frequency is 2.4 gigahertz.", exZh:"载波频率为2.4吉赫兹。", field:"通信原理", level:2},
+  {en:"amplitude modulation", ipa:"/ˈæmplɪtjuːd ˌmɒdjuˈleɪʃn/", pos:"n.", zh:"调幅（AM）", ex:"Amplitude modulation is sensitive to noise.", exZh:"调幅对噪声比较敏感。", field:"通信原理", level:2},
+  {en:"frequency modulation", ipa:"/ˈfriːkwənsi ˌmɒdjuˈleɪʃn/", pos:"n.", zh:"调频（FM）", ex:"Frequency modulation gives better noise immunity.", exZh:"调频具有更好的抗噪性能。", field:"通信原理", level:2},
+  {en:"multiplexing", ipa:"/ˈmʌltɪpleksɪŋ/", pos:"n.", zh:"复用", ex:"Time division multiplexing shares one channel among users.", exZh:"时分复用让多个用户共享一个信道。", field:"通信原理", level:2},
+  {en:"channel", ipa:"/ˈtʃænl/", pos:"n.", zh:"信道", ex:"The wireless channel introduces fading and delay spread.", exZh:"无线信道会带来衰落和时延扩展。", field:"通信原理", level:1},
+  {en:"noise", ipa:"/nɔɪz/", pos:"n.", zh:"噪声", ex:"Thermal noise limits the sensitivity of the receiver.", exZh:"热噪声限制了接收机的灵敏度。", field:"通信原理", level:1},
+  {en:"bit error rate", ipa:"/bɪt ˈerə reɪt/", pos:"n.", zh:"误码率（BER）", ex:"The bit error rate drops below ten to the minus six.", exZh:"误码率降到10的负6次方以下。", field:"通信原理", level:2},
+  {en:"antenna", ipa:"/ænˈtenə/", pos:"n.", zh:"天线", ex:"We designed a compact antenna for the IoT node.", exZh:"我们为物联网节点设计了一个小型天线。", field:"通信原理", level:1},
+  {en:"propagation", ipa:"/ˌprɒpəˈɡeɪʃn/", pos:"n.", zh:"传播", ex:"Signal propagation indoors is affected by walls and furniture.", exZh:"室内信号传播受墙壁和家具影响。", field:"通信原理", level:2},
+  {en:"orthogonal frequency division multiplexing", ipa:"/ɔːˈθɒɡənl ˈfriːkwənsi dɪˈvɪʒn ˈmʌltɪpleksɪŋ/", pos:"n.", zh:"正交频分复用（OFDM）", ex:"OFDM is robust against multipath interference.", exZh:"OFDM对多径干扰有很强的鲁棒性。", field:"通信原理", level:3},
+  {en:"multiple-input multiple-output", ipa:"/ˈmʌltɪpl ˈɪnpʊt ˈmʌltɪpl ˈaʊtpʊt/", pos:"n.", zh:"多输入多输出（MIMO）", ex:"MIMO increases capacity without extra bandwidth.", exZh:"MIMO在不增加带宽的情况下提高容量。", field:"通信原理", level:3},
+  {en:"base station", ipa:"/beɪs ˈsteɪʃn/", pos:"n.", zh:"基站", ex:"The handset hands over to the nearest base station.", exZh:"手机切换到最近的基站。", field:"通信原理", level:2},
+  {en:"protocol", ipa:"/ˈprəʊtəkɒl/", pos:"n.", zh:"协议", ex:"The protocol defines how the nodes exchange data.", exZh:"该协议规定了节点之间如何交换数据。", field:"通信原理", level:2},
+  {en:"latency", ipa:"/ˈleɪtnsi/", pos:"n.", zh:"时延；延迟", ex:"Low latency is critical for real-time control.", exZh:"低时延对实时控制至关重要。", field:"通信原理", level:2},
+  {en:"throughput", ipa:"/ˈθruːpʊt/", pos:"n.", zh:"吞吐量", ex:"The measured throughput was close to the theoretical value.", exZh:"实测吞吐量接近理论值。", field:"通信原理", level:2},
+  {en:"spectral efficiency", ipa:"/ˈspektrəl ɪˈfɪʃnsi/", pos:"n.", zh:"频谱效率", ex:"Higher order modulation raises spectral efficiency.", exZh:"高阶调制可以提高频谱效率。", field:"通信原理", level:3},
+
+  /* ---------------- 微机与嵌入式 ---------------- */
+  {en:"microprocessor", ipa:"/ˌmaɪkrəʊˈprəʊsesə/", pos:"n.", zh:"微处理器", ex:"The microprocessor fetches and executes instructions.", exZh:"微处理器取指并执行指令。", field:"微机与嵌入式", level:1},
+  {en:"microcontroller", ipa:"/ˌmaɪkrəʊkənˈtrəʊlə/", pos:"n.", zh:"微控制器；单片机", ex:"We used a microcontroller to read the sensor.", exZh:"我们用单片机读取传感器数据。", field:"微机与嵌入式", level:1},
+  {en:"register", ipa:"/ˈredʒɪstə/", pos:"n.", zh:"寄存器", ex:"The result is stored in a general-purpose register.", exZh:"结果存放在通用寄存器里。", field:"微机与嵌入式", level:2},
+  {en:"bus", ipa:"/bʌs/", pos:"n.", zh:"总线", ex:"The address bus carries the memory location.", exZh:"地址总线传送存储单元地址。", field:"微机与嵌入式", level:1},
+  {en:"interrupt", ipa:"/ˌɪntəˈrʌpt/", pos:"n./v.", zh:"中断", ex:"The timer generates an interrupt every millisecond.", exZh:"定时器每毫秒产生一次中断。", field:"微机与嵌入式", level:2},
+  {en:"cache", ipa:"/kæʃ/", pos:"n.", zh:"高速缓存", ex:"The cache reduces the average memory access time.", exZh:"高速缓存降低了平均访存时间。", field:"微机与嵌入式", level:2},
+  {en:"flash memory", ipa:"/flæʃ ˈmeməri/", pos:"n.", zh:"闪存", ex:"The program is stored in the on-chip flash memory.", exZh:"程序存放在片内闪存中。", field:"微机与嵌入式", level:1},
+  {en:"general-purpose input/output", ipa:"/ˈdʒenrəl ˈpɜːpəs ˈɪnpʊt ˈaʊtpʊt/", pos:"n.", zh:"通用输入输出口（GPIO）", ex:"We toggled a GPIO pin to drive the LED.", exZh:"我们翻转一个GPIO引脚来驱动LED。", field:"微机与嵌入式", level:2},
+  {en:"analog-to-digital converter", ipa:"/ˈænəlɒɡ tə ˈdɪdʒɪtl kənˈvɜːtə/", pos:"n.", zh:"模数转换器（ADC）", ex:"The analog-to-digital converter has twelve-bit resolution.", exZh:"该ADC具有12位分辨率。", field:"微机与嵌入式", level:2},
+  {en:"pulse width modulation", ipa:"/pʌls wɪdθ ˌmɒdjuˈleɪʃn/", pos:"n.", zh:"脉宽调制（PWM）", ex:"Pulse width modulation controls the motor speed.", exZh:"PWM用来控制电机转速。", field:"微机与嵌入式", level:2},
+  {en:"serial port", ipa:"/ˈsɪəriəl pɔːt/", pos:"n.", zh:"串口", ex:"The data is sent to the PC through the serial port.", exZh:"数据通过串口发送到电脑。", field:"微机与嵌入式", level:1},
+  {en:"firmware", ipa:"/ˈfɜːmweə/", pos:"n.", zh:"固件", ex:"We updated the firmware over the air.", exZh:"我们通过空中下载更新了固件。", field:"微机与嵌入式", level:2},
+  {en:"real-time operating system", ipa:"/rɪəl taɪm ˈɒpəreɪtɪŋ ˈsɪstəm/", pos:"n.", zh:"实时操作系统（RTOS）", ex:"A real-time operating system schedules the tasks by priority.", exZh:"实时操作系统按优先级调度任务。", field:"微机与嵌入式", level:3},
+  {en:"instruction set", ipa:"/ɪnˈstrʌkʃn set/", pos:"n.", zh:"指令集", ex:"The instruction set determines how the code is compiled.", exZh:"指令集决定了代码如何编译。", field:"微机与嵌入式", level:2},
+  {en:"pipeline", ipa:"/ˈpaɪplaɪn/", pos:"n.", zh:"流水线", ex:"Pipelining improves instruction throughput.", exZh:"流水线提高了指令吞吐率。", field:"微机与嵌入式", level:3},
+  {en:"field-programmable gate array", ipa:"/fiːld ˈprəʊɡræməbl ɡeɪt ˈæreɪ/", pos:"n.", zh:"现场可编程门阵列（FPGA）", ex:"The algorithm was implemented on an FPGA.", exZh:"该算法在FPGA上实现。", field:"微机与嵌入式", level:3},
+  {en:"hardware description language", ipa:"/ˈhɑːdweə dɪˈskrɪpʃn ˈlæŋɡwɪdʒ/", pos:"n.", zh:"硬件描述语言（HDL）", ex:"Verilog is a widely used hardware description language.", exZh:"Verilog是一种常用的硬件描述语言。", field:"微机与嵌入式", level:3},
+  {en:"embedded system", ipa:"/ɪmˈbedɪd ˈsɪstəm/", pos:"n.", zh:"嵌入式系统", ex:"An embedded system is designed for a specific function.", exZh:"嵌入式系统是为特定功能设计的。", field:"微机与嵌入式", level:1},
+
+  /* ---------------- 电磁场与微波 ---------------- */
+  {en:"electromagnetic field", ipa:"/ɪˌlektrəʊmæɡˈnetɪk fiːld/", pos:"n.", zh:"电磁场", ex:"The electromagnetic field is described by four equations.", exZh:"电磁场由四个方程描述。", field:"电磁场与微波", level:1},
+  {en:"Maxwell's equations", ipa:"/ˈmækswelz ɪˈkweɪʒnz/", pos:"n.", zh:"麦克斯韦方程组", ex:"Maxwell's equations unify electricity and magnetism.", exZh:"麦克斯韦方程组统一了电与磁。", field:"电磁场与微波", level:3},
+  {en:"electric field", ipa:"/ɪˈlektrɪk fiːld/", pos:"n.", zh:"电场", ex:"The electric field inside the conductor is zero.", exZh:"导体内部的电场为零。", field:"电磁场与微波", level:1},
+  {en:"magnetic field", ipa:"/mæɡˈnetɪk fiːld/", pos:"n.", zh:"磁场", ex:"The magnetic field is perpendicular to the current.", exZh:"磁场方向与电流方向垂直。", field:"电磁场与微波", level:1},
+  {en:"wavelength", ipa:"/ˈweɪvleŋθ/", pos:"n.", zh:"波长", ex:"At three gigahertz the wavelength is about ten centimetres.", exZh:"在3吉赫兹时波长约为10厘米。", field:"电磁场与微波", level:2},
+  {en:"polarization", ipa:"/ˌpəʊləraɪˈzeɪʃn/", pos:"n.", zh:"极化", ex:"The antenna radiates a linear polarization.", exZh:"该天线辐射线极化波。", field:"电磁场与微波", level:3},
+  {en:"waveguide", ipa:"/ˈweɪvɡaɪd/", pos:"n.", zh:"波导", ex:"The signal travels through a rectangular waveguide.", exZh:"信号通过矩形波导传输。", field:"电磁场与微波", level:3},
+  {en:"impedance matching", ipa:"/ɪmˈpiːdəns ˈmætʃɪŋ/", pos:"n.", zh:"阻抗匹配", ex:"Impedance matching maximises the power transfer.", exZh:"阻抗匹配使功率传输最大。", field:"电磁场与微波", level:2},
+  {en:"reflection coefficient", ipa:"/rɪˈflekʃn ˌkəʊɪˈfɪʃnt/", pos:"n.", zh:"反射系数", ex:"A small reflection coefficient means good matching.", exZh:"反射系数小说明匹配良好。", field:"电磁场与微波", level:3},
+  {en:"dielectric", ipa:"/ˌdaɪɪˈlektrɪk/", pos:"n./adj.", zh:"电介质；介电的", ex:"The dielectric constant affects the propagation speed.", exZh:"介电常数影响传播速度。", field:"电磁场与微波", level:3},
+  {en:"transmission line", ipa:"/trænsˈmɪʃn laɪn/", pos:"n.", zh:"传输线", ex:"The transmission line has a characteristic impedance of fifty ohms.", exZh:"该传输线的特性阻抗为50欧姆。", field:"电磁场与微波", level:2},
+  {en:"radiation pattern", ipa:"/ˌreɪdiˈeɪʃn ˈpætn/", pos:"n.", zh:"辐射方向图", ex:"The radiation pattern shows a broad main lobe.", exZh:"辐射方向图显示一个较宽的主瓣。", field:"电磁场与微波", level:3},
+
+  /* ---------------- 控制与电力电子 ---------------- */
+  {en:"control system", ipa:"/kənˈtrəʊl ˈsɪstəm/", pos:"n.", zh:"控制系统", ex:"The control system keeps the temperature constant.", exZh:"控制系统使温度保持恒定。", field:"控制与电力电子", level:1},
+  {en:"closed-loop", ipa:"/kləʊzd luːp/", pos:"adj.", zh:"闭环的", ex:"In closed-loop control the output is fed back for comparison.", exZh:"在闭环控制中，输出被反馈回来进行比较。", field:"控制与电力电子", level:2},
+  {en:"open-loop", ipa:"/ˈəʊpən luːp/", pos:"adj.", zh:"开环的", ex:"An open-loop system cannot correct disturbances.", exZh:"开环系统无法纠正扰动。", field:"控制与电力电子", level:2},
+  {en:"PID controller", ipa:"/ˌpiː aɪ ˈdiː kənˈtrəʊlə/", pos:"n.", zh:"PID控制器", ex:"We tuned the PID controller by the Ziegler-Nichols method.", exZh:"我们用齐格勒-尼科尔斯法整定PID控制器。", field:"控制与电力电子", level:2},
+  {en:"stability", ipa:"/stəˈbɪləti/", pos:"n.", zh:"稳定性", ex:"All the poles lie in the left half plane, so stability is guaranteed.", exZh:"所有极点都在左半平面，因此系统稳定。", field:"控制与电力电子", level:2},
+  {en:"overshoot", ipa:"/ˌəʊvəˈʃuːt/", pos:"n.", zh:"超调量", ex:"The step response has a ten percent overshoot.", exZh:"阶跃响应有10%的超调量。", field:"控制与电力电子", level:3},
+  {en:"steady-state error", ipa:"/ˈstedi steɪt ˈerə/", pos:"n.", zh:"稳态误差", ex:"Integral action eliminates the steady-state error.", exZh:"积分作用消除稳态误差。", field:"控制与电力电子", level:3},
+  {en:"inverter", ipa:"/ɪnˈvɜːtə/", pos:"n.", zh:"逆变器", ex:"The inverter converts direct current into alternating current.", exZh:"逆变器把直流电变为交流电。", field:"控制与电力电子", level:2},
+  {en:"converter", ipa:"/kənˈvɜːtə/", pos:"n.", zh:"变换器；转换器", ex:"A buck converter steps the voltage down efficiently.", exZh:"降压变换器可以高效地降低电压。", field:"控制与电力电子", level:2},
+  {en:"duty cycle", ipa:"/ˈdjuːti ˈsaɪkl/", pos:"n.", zh:"占空比", ex:"A larger duty cycle raises the average output voltage.", exZh:"占空比越大，平均输出电压越高。", field:"控制与电力电子", level:2},
+  {en:"power electronics", ipa:"/ˈpaʊə ɪˌlekˈtrɒnɪks/", pos:"n.", zh:"电力电子", ex:"Power electronics is the key to efficient energy conversion.", exZh:"电力电子是高效能量转换的关键。", field:"控制与电力电子", level:2},
+  {en:"motor drive", ipa:"/ˈməʊtə draɪv/", pos:"n.", zh:"电机驱动", ex:"The motor drive uses field-oriented control.", exZh:"该电机驱动采用磁场定向控制。", field:"控制与电力电子", level:2},
+
+  /* ---------------- 计算机与人工智能 ---------------- */
+  {en:"machine learning", ipa:"/məˈʃiːn ˈlɜːnɪŋ/", pos:"n.", zh:"机器学习", ex:"Machine learning is used to classify the fault patterns.", exZh:"机器学习被用于对故障模式进行分类。", field:"计算机与AI", level:1},
+  {en:"neural network", ipa:"/ˈnjʊərəl ˈnetwɜːk/", pos:"n.", zh:"神经网络", ex:"We trained a small neural network on the edge device.", exZh:"我们在边缘设备上训练了一个小型神经网络。", field:"计算机与AI", level:1},
+  {en:"deep learning", ipa:"/diːp ˈlɜːnɪŋ/", pos:"n.", zh:"深度学习", ex:"Deep learning needs a large amount of labelled data.", exZh:"深度学习需要大量带标签的数据。", field:"计算机与AI", level:1},
+  {en:"dataset", ipa:"/ˈdeɪtəset/", pos:"n.", zh:"数据集", ex:"The dataset contains two thousand samples.", exZh:"该数据集包含2000个样本。", field:"计算机与AI", level:1},
+  {en:"training", ipa:"/ˈtreɪnɪŋ/", pos:"n.", zh:"训练", ex:"Training took about three hours on one GPU.", exZh:"在一块GPU上训练花了大约三个小时。", field:"计算机与AI", level:1},
+  {en:"inference", ipa:"/ˈɪnfərəns/", pos:"n.", zh:"推理；推断", ex:"Inference on the microcontroller takes ten milliseconds.", exZh:"在单片机上推理需要10毫秒。", field:"计算机与AI", level:2},
+  {en:"algorithm", ipa:"/ˈælɡərɪðəm/", pos:"n.", zh:"算法", ex:"The algorithm reduces the computation by half.", exZh:"该算法把计算量减少了一半。", field:"计算机与AI", level:1},
+  {en:"simulation", ipa:"/ˌsɪmjuˈleɪʃn/", pos:"n.", zh:"仿真；模拟", ex:"The simulation result agrees with the measurement.", exZh:"仿真结果与实测结果一致。", field:"计算机与AI", level:1},
+  {en:"MATLAB", ipa:"/ˈmætlæb/", pos:"n.", zh:"MATLAB（科学计算软件）", ex:"I verified the model in MATLAB before coding it in C.", exZh:"我先在MATLAB上验证模型，再用C语言实现。", field:"计算机与AI", level:1},
+  {en:"embedded programming", ipa:"/ɪmˈbedɪd ˈprəʊɡræmɪŋ/", pos:"n.", zh:"嵌入式编程", ex:"Embedded programming requires careful memory management.", exZh:"嵌入式编程需要仔细管理内存。", field:"计算机与AI", level:2},
+  {en:"Internet of Things", ipa:"/ˈɪntənet əv θɪŋz/", pos:"n.", zh:"物联网（IoT）", ex:"The system is part of a smart-campus Internet of Things project.", exZh:"这个系统是智慧校园物联网项目的一部分。", field:"计算机与AI", level:1},
+  {en:"edge computing", ipa:"/edʒ kəmˈpjuːtɪŋ/", pos:"n.", zh:"边缘计算", ex:"Edge computing reduces the data sent to the cloud.", exZh:"边缘计算减少了发往云端的数据量。", field:"计算机与AI", level:2},
+  {en:"computer vision", ipa:"/kəmˈpjuːtə ˈvɪʒn/", pos:"n.", zh:"计算机视觉", ex:"Computer vision is used to detect defects on the board.", exZh:"计算机视觉被用于检测电路板上的缺陷。", field:"计算机与AI", level:2},
+  {en:"software debugging", ipa:"/ˈsɒftweə diːˈbʌɡɪŋ/", pos:"n.", zh:"软件调试", ex:"Software debugging took longer than expected.", exZh:"软件调试花的时间比预期长。", field:"计算机与AI", level:1},
+
+  /* ---------------- 学术与面试 ---------------- */
+  {en:"undergraduate thesis", ipa:"/ˌʌndəˈɡrædʒuət ˈθiːsɪs/", pos:"n.", zh:"本科毕业论文", ex:"My undergraduate thesis focuses on low-power circuit design.", exZh:"我的本科毕业论文研究低功耗电路设计。", field:"学术与面试", level:1},
+  {en:"literature review", ipa:"/ˈlɪtrətʃə rɪˈvjuː/", pos:"n.", zh:"文献综述", ex:"I began with a literature review of recent papers.", exZh:"我先对近年文献做了综述。", field:"学术与面试", level:2},
+  {en:"methodology", ipa:"/ˌmeθəˈdɒlədʒi/", pos:"n.", zh:"研究方法；方法论", ex:"The methodology combines simulation and experiment.", exZh:"该方法结合了仿真与实验。", field:"学术与面试", level:2},
+  {en:"implementation", ipa:"/ˌɪmplɪmenˈteɪʃn/", pos:"n.", zh:"实现；实施", ex:"The implementation was completed in three months.", exZh:"实现工作三个月完成。", field:"学术与面试", level:2},
+  {en:"experiment", ipa:"/ɪkˈsperɪmənt/", pos:"n.", zh:"实验", ex:"The experiment was repeated five times to ensure reliability.", exZh:"实验重复了五次以确保可靠性。", field:"学术与面试", level:1},
+  {en:"result", ipa:"/rɪˈzʌlt/", pos:"n.", zh:"结果", ex:"The results show a clear improvement over the baseline.", exZh:"结果显示相对基线有显著改善。", field:"学术与面试", level:1},
+  {en:"conclusion", ipa:"/kənˈkluːʒn/", pos:"n.", zh:"结论", ex:"In conclusion, the design meets all the requirements.", exZh:"总之，该设计满足全部要求。", field:"学术与面试", level:1},
+  {en:"contribution", ipa:"/ˌkɒntrɪˈbjuːʃn/", pos:"n.", zh:"贡献", ex:"The main contribution of this work is a simpler calibration method.", exZh:"本工作的主要贡献是一个更简单的标定方法。", field:"学术与面试", level:2},
+  {en:"innovation", ipa:"/ˌɪnəˈveɪʃn/", pos:"n.", zh:"创新", ex:"Our innovation lies in the low-cost sensor fusion scheme.", exZh:"我们的创新点在于低成本的传感器融合方案。", field:"学术与面试", level:2},
+  {en:"supervisor", ipa:"/ˈsuːpəvaɪzə/", pos:"n.", zh:"导师", ex:"My supervisor encouraged me to join the national competition.", exZh:"我的导师鼓励我参加全国竞赛。", field:"学术与面试", level:1},
+  {en:"laboratory", ipa:"/ləˈbɒrətri/", pos:"n.", zh:"实验室", ex:"I spent most of my spare time in the laboratory.", exZh:"我大部分课余时间都在实验室度过。", field:"学术与面试", level:1},
+  {en:"scholarship", ipa:"/ˈskɒləʃɪp/", pos:"n.", zh:"奖学金", ex:"I was awarded a national scholarship in my junior year.", exZh:"我在大三获得了国家奖学金。", field:"学术与面试", level:1},
+  {en:"academic performance", ipa:"/ˌækəˈdemɪk pəˈfɔːməns/", pos:"n.", zh:"学业成绩", ex:"My academic performance ranks third in my major.", exZh:"我的学业成绩在本专业排第三。", field:"学术与面试", level:1},
+  {en:"research interest", ipa:"/rɪˈsɜːtʃ ˈɪntrəst/", pos:"n.", zh:"研究兴趣", ex:"My research interest is mixed-signal integrated circuit design.", exZh:"我的研究兴趣是混合信号集成电路设计。", field:"学术与面试", level:1},
+  {en:"teamwork", ipa:"/ˈtiːmwɜːk/", pos:"n.", zh:"团队合作", ex:"Teamwork helped us finish the prototype on schedule.", exZh:"团队合作帮助我们按时完成了样机。", field:"学术与面试", level:1},
+  {en:"presentation", ipa:"/ˌpreznˈteɪʃn/", pos:"n.", zh:"汇报；演示", ex:"I gave a ten-minute presentation on our design.", exZh:"我做了一个十分钟的设计汇报。", field:"学术与面试", level:1},
+  {en:"thesis defense", ipa:"/ˈθiːsɪs dɪˈfens/", pos:"n.", zh:"论文答辩", ex:"I am preparing for my thesis defense next month.", exZh:"我正在准备下个月的论文答辩。", field:"学术与面试", level:1},
+  {en:"graduate study", ipa:"/ˈɡrædʒuət ˈstʌdi/", pos:"n.", zh:"研究生学习", ex:"I hope to continue my graduate study in signal processing.", exZh:"我希望在信号处理方向继续研究生学习。", field:"学术与面试", level:1}
+];
+
+</script>
+<script>
+/* ============================================================
+   0. 基础工具
+   ============================================================ */
+const $  = s => document.querySelector(s);
+const $$ = s => [...document.querySelectorAll(s)];
+const pad = n => String(n).padStart(2, "0");
+const ymd = d => `${d.getFullYear()}-${pad(d.getMonth()+1)}-${pad(d.getDate())}`;
+const TODAY = () => ymd(new Date());
+const addDays = (d, n) => { const x = new Date(d); x.setDate(x.getDate()+n); return x; };
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+/** 用在 onclick="fn('...')" 里的参数：先为 JS 转义引号，再做 HTML 转义 */
+const jsArg = s => esc(String(s ?? "").replace(/\\/g, "\\\\").replace(/'/g, "\\'"));
+const uid = s => String(s).trim().toLowerCase().replace(/\s+/g, " ");
+const shuffle = a => { for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];} return a; };
+const pct = (a,b) => b ? Math.round(a/b*100) : 0;
+
+let toastTimer;
+function toast(msg){
+  const t = $("#toast"); t.textContent = msg; t.classList.add("show");
+  clearTimeout(toastTimer); toastTimer = setTimeout(()=>t.classList.remove("show"), 1900);
+}
+
+/* ============================================================
+   1. 数据层
+   ============================================================ */
+const LS_KEY = "eeTerms.v1";
+const FIELDS = ["电路基础","信号与系统","通信原理","微机与嵌入式","电磁场与微波","控制与电力电子","计算机与AI","学术与面试"];
+const DEFAULT_SETTINGS = { newPerDay:10, reviewCap:120, theme:"light", rate:0.9, autoSpeak:true, voice:"" };
+
+let db = null;
+
+function blankDB(){
+  return {
+    words: SEED_WORDS.map(w => ({ ...w, id: uid(w.en), custom:false })),
+    prog: {}, log: {}, settings: {...DEFAULT_SETTINGS},
+    meta: { created: TODAY(), seeded:true }
+  };
+}
+
+function loadDB(){
+  try{
+    const raw = localStorage.getItem(LS_KEY);
+    if(raw){
+      db = JSON.parse(raw);
+      db.settings = { ...DEFAULT_SETTINGS, ...(db.settings||{}) };
+      db.words = (db.words||[]).map(w => ({ ...w, id: w.id || uid(w.en) }));
+      db.prog = db.prog || {}; db.log = db.log || {};
+      return;
+    }
+  }catch(e){ console.warn("读取失败，重建", e); }
+  db = blankDB();
+  saveDB();
+}
+
+function saveDB(){
+  try{ localStorage.setItem(LS_KEY, JSON.stringify(db)); }
+  catch(e){ toast("保存失败：浏览器存储不可用"); }
+}
+
+/* ---------- 记忆曲线（简化版 SM-2） ---------- */
+function newProg(id){
+  return { id, ease:2.5, iv:0, reps:0, lapses:0, due:TODAY(), last:"", status:"new", right:0, wrong:0 };
+}
+function getProg(id){ return db.prog[id] || null; }
+function statusOf(id){
+  const p = db.prog[id];
+  if(!p || p.status === "new") return "new";
+  return p.status;
+}
+function schedule(id, q){
+  const p = db.prog[id] || newProg(id);
+  const t = TODAY();
+  p.reps = p.reps || 0;
+  if(q === 0){
+    p.ease = Math.max(1.3, p.ease - 0.2);
+    p.iv = 0; p.lapses++; p.reps = 0; p.wrong++;
+    p.status = "learning";
+    p.due = t;                       // 今天再来一次
+  }else{
+    if(p.iv === 0) p.iv = q === 3 ? 3 : 1;
+    else if(q === 1) p.iv = Math.max(1, Math.round(p.iv * 1.2));
+    else if(q === 2) p.iv = Math.max(2, Math.round(p.iv * p.ease));
+    else { p.ease = Math.min(3.2, p.ease + 0.15); p.iv = Math.max(3, Math.round(p.iv * p.ease * 1.15)); }
+    p.right++;
+    p.status = (p.iv >= 21 && p.ease >= 2.6) ? "mastered" : "review";
+    p.due = ymd(addDays(new Date(), p.iv));
+  }
+  p.last = t;
+  db.prog[id] = p;
+  saveDB();
+  return p;
+}
+
+/* ---------- 日志 / 打卡 ---------- */
+function bumpLog(field, n=1){
+  const t = TODAY();
+  const L = db.log[t] || (db.log[t] = { new:0, rev:0, correct:0, total:0 });
+  L[field] = (L[field]||0) + n;
+  saveDB();
+}
+function todayLog(){ return db.log[TODAY()] || { new:0, rev:0, correct:0, total:0 }; }
+function streak(){
+  let s = 0, d = new Date();
+  if(!(db.log[TODAY()] && db.log[TODAY()].total > 0)) d = addDays(d, -1);   // 今天还没学，从昨天算
+  while(db.log[ymd(d)] && db.log[ymd(d)].total > 0){ s++; d = addDays(d, -1); }
+  return s;
+}
+
+/* ---------- 待学/待复习 ---------- */
+function dueReviews(){
+  const t = TODAY();
+  return db.words.filter(w => {
+    const p = db.prog[w.id];
+    return p && p.status !== "mastered" && p.due <= t;
+  }).sort((a,b) => (db.prog[a.id].due < db.prog[b.id].due ? -1 : 1));
+}
+function freshWords(){
+  return db.words.filter(w => !db.prog[w.id]);
+}
+function todayNewQuota(){
+  const used = todayLog().new || 0;
+  return Math.max(0, (db.settings.newPerDay || 10) - used);
+}
+
+/* ============================================================
+   2. 发音
+   ============================================================ */
+let voices = [];
+function loadVoices(){
+  if(!window.speechSynthesis) return;
+  voices = speechSynthesis.getVoices() || [];
+}
+if(window.speechSynthesis) speechSynthesis.onvoiceschanged = loadVoices;
+function speak(text){
+  if(!window.speechSynthesis){ toast("当前浏览器不支持发音"); return; }
+  if(!voices.length) loadVoices();
+  const u = new SpeechSynthesisUtterance(text);
+  const pref = db.settings.voice;
+  let v = pref ? voices.find(x => x.name === pref) : null;
+  if(!v) v = voices.find(x => /en[-_]US/i.test(x.lang)) || voices.find(x => /^en/i.test(x.lang));
+  if(v) u.voice = v;
+  u.lang = (v && v.lang) || "en-US";
+  u.rate = db.settings.rate || 0.9;
+  speechSynthesis.cancel();
+  speechSynthesis.speak(u);
+}
+
+/* ============================================================
+   3. 路由
+   ============================================================ */
+let currentView = "home";
+function go(view){
+  currentView = view;
+  $$(".nav-btn").forEach(b => b.classList.toggle("active", b.dataset.view === view));
+  ["home","study","library","stats","interview","settings"].forEach(v => {
+    $("#view-"+v).classList.toggle("hidden", v !== view);
+  });
+  renderSide();
+  ({
+    home: renderHome, study: renderStudyHome, library: renderLibrary,
+    stats: renderStats, interview: renderInterview, settings: renderSettings
+  })[view]();
+  window.scrollTo({top:0});
+}
+$$(".nav-btn").forEach(b => b.onclick = () => go(b.dataset.view));
+
+function renderSide(){
+  const t = todayLog();
+  const due = dueReviews().length;
+  const goal = db.settings.newPerDay || 10;
+  $("#sideStat").innerHTML = `连续 ${streak()} 天 · 今日 ${t.total||0} 次<br>待复习 ${due} · 新词余 ${todayNewQuota()}/${goal}`;
+}
+
+/* ============================================================
+   4. 首页
+   ============================================================ */
+function renderHome(){
+  const t = todayLog();
+  const due = dueReviews().length;
+  const quota = todayNewQuota();
+  const total = db.words.length;
+  const mastered = db.words.filter(w => statusOf(w.id) === "mastered").length;
+  const learned = db.words.filter(w => db.prog[w.id]).length;
+  const todayTotal = (t.total||0);
+  const goal = (db.settings.newPerDay||10) + Math.min(due, 20);
+  const ring = Math.min(100, pct(todayTotal, Math.max(goal,1)));
+  const circ = 2 * Math.PI * 56;
+
+  $("#view-home").innerHTML = `
+    <h1 class="h1">今日学习</h1>
+    <p class="sub">${TODAY()} · 连续打卡 <b>${streak()}</b> 天 · 每一点积累都算数</p>
+
+    <div class="card" style="margin-bottom:16px">
+      <div class="hero">
+        <div style="flex:1;min-width:240px">
+          <div style="font-size:17px;font-weight:700;margin-bottom:6px">
+            ${due > 0 ? `有 <span style="color:var(--brand)">${due}</span> 个词等你复习`
+                      : (quota > 0 ? `今天可以学 <span style="color:var(--brand)">${Math.min(quota,10)}</span> 个新词`
+                                   : "今日任务已完成 🎉")}
+          </div>
+          <div style="color:var(--muted);font-size:13.5px;margin-bottom:16px">
+            ${due>0 ? "先复习再学新词，记忆更牢。" : "试试用拼写或听写模式加深印象。"}
+          </div>
+          <div style="display:flex;gap:10px;flex-wrap:wrap">
+            <button class="btn primary" onclick="startSession('learn')">开始学习</button>
+            <button class="btn ghost" onclick="startSession('spell')">拼写练习</button>
+            <button class="btn ghost" onclick="startSession('listen')">听写练习</button>
+            <button class="btn line" onclick="startSession('choice')">选择练习</button>
+          </div>
+        </div>
+        <div class="ring">
+          <svg width="132" height="132" viewBox="0 0 132 132">
+            <circle cx="66" cy="66" r="56" stroke="var(--chip)" stroke-width="11" fill="none"/>
+            <circle cx="66" cy="66" r="56" stroke="var(--brand)" stroke-width="11" fill="none"
+              stroke-linecap="round" stroke-dasharray="${circ}" stroke-dashoffset="${circ*(1-ring/100)}"/>
+          </svg>
+          <div class="num"><b>${todayTotal}</b><span>今日练习次数</span></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid g4" style="margin-bottom:16px">
+      <div class="stat"><div class="k">词库总量</div><div class="v">${total}<small>词</small></div></div>
+      <div class="stat"><div class="k">已掌握</div><div class="v" style="color:var(--ok)">${mastered}<small>词</small></div></div>
+      <div class="stat"><div class="k">学习中</div><div class="v" style="color:var(--warn)">${learned-mastered}<small>词</small></div></div>
+      <div class="stat"><div class="k">未开始</div><div class="v" style="color:var(--muted)">${total-learned}<small>词</small></div></div>
+    </div>
+
+    <div class="grid g2">
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:12px">各方向进度</div>
+        ${FIELDS.map(f => {
+          const ws = db.words.filter(w => w.field === f);
+          const m = ws.filter(w => statusOf(w.id) === "mastered").length;
+          return `<div class="fbar"><div class="t"><span>${f}</span><span style="color:var(--muted)">${m}/${ws.length}</span></div>
+            <div class="track"><i style="width:${pct(m, ws.length)}%"></i></div></div>`;
+        }).join("")}
+      </div>
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:12px">学习建议</div>
+        <div class="tips">
+          <b>1. 每天 10 分钟</b>：新词 10 个 + 复习当日到期词，比周末突击一小时更有效。<br>
+          <b>2. 开口读</b>：点卡片右上角喇叭跟读，复试考的是"说得出来"，不是"看得懂"。<br>
+          <b>3. 造句</b>：每个词配的例句直接背下来，面试时能整句输出。<br>
+          <b>4. 拼写模式</b>每周至少一次，避免"认识但写不出"。<br>
+          <b>5. 面试抽卡</b>：拿已掌握的词随机抽，训练 60 秒英文解释。
+        </div>
+        <div style="margin-top:16px;display:flex;gap:8px;flex-wrap:wrap">
+          <button class="btn ghost" onclick="go('library')">去词库添加</button>
+          <button class="btn ghost" onclick="go('interview')">面试抽卡</button>
+        </div>
+      </div>
+    </div>`;
+}
+
+/* ============================================================
+   5. 学习会话
+   ============================================================ */
+let S = null;   // {mode, queue, i, correct, wrong, revealed, answered}
+
+function renderStudyHome(){
+  const due = dueReviews().length, quota = todayNewQuota();
+  $("#view-study").innerHTML = `
+    <h1 class="h1">学习模式</h1>
+    <p class="sub">四种练法，建议"认词 → 拼写 → 听写 → 选择"交替使用</p>
+    <div class="grid g2">
+      ${[
+        ["learn","认词卡","看英文回想中文，翻卡核对，按熟悉程度评分","最常用，先建立印象"],
+        ["spell","拼写","看中文和音标，默写英文，检验是否真的会写","面试前重点练"],
+        ["listen","听写","听发音写英文，训练听力与拼写","练发音辨识"],
+        ["choice","选择题","看英文选中文，四选一，快速过词","碎片时间最合适"]
+      ].map(([m,t,d,tag]) => `
+        <div class="card">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+            <b style="font-size:16px">${t}</b><span class="chip">${tag}</span>
+          </div>
+          <div style="color:var(--muted);font-size:13.5px;min-height:44px">${d}</div>
+          <button class="btn primary" style="margin-top:12px;width:100%" onclick="startSession('${m}')">开始</button>
+        </div>`).join("")}
+    </div>
+    <div class="card" style="margin-top:16px">
+      <div style="font-weight:700;margin-bottom:6px">今日额度</div>
+      <div class="tips">待复习 <b>${due}</b> 个 · 新词还可学 <b>${quota}</b> 个（可在设置里调整每日新词数）</div>
+    </div>`;
+  renderSide();
+}
+
+function buildQueue(mode){
+  const quota = todayNewQuota();
+  const reviews = dueReviews().slice(0, db.settings.reviewCap || 120);
+  const news = freshWords().slice(0, quota);
+  let q = [...reviews, ...news];
+  if(mode === "spell" || mode === "listen" || mode === "choice"){
+    // 练习模式：把今天已经学过的词也放进来，保证有内容可练
+    if(q.length < 8){
+      const pool = db.words.filter(w => db.prog[w.id] && !q.includes(w)).slice(0, 20);
+      q = q.concat(shuffle(pool).slice(0, 8 - q.length));
+    }
+  }
+  if(!q.length){
+    const pool = db.words.filter(w => statusOf(w.id) !== "mastered");
+    q = shuffle(pool).slice(0, 10);
+  }
+  return shuffle(q);
+}
+
+function startSession(mode){
+  const queue = buildQueue(mode);
+  if(!queue.length){ toast("没有可学习的词，去词库添加吧"); return; }
+  S = { mode, queue, i:0, correct:0, wrong:0, revealed:false, answered:false, opts:null };
+  go("study");
+  $("#view-study").innerHTML = `<div class="study-wrap" id="studyBody"></div>`;
+  renderCard();
+}
+
+function renderCard(){
+  if(!S) return;
+  if(S.i >= S.queue.length){ finishSession(); return; }
+  const w = S.queue[S.i];
+  const body = $("#studyBody");
+  const prog = ((S.i) / S.queue.length) * 100;
+
+  // 选择题：本卡第一次渲染时生成选项
+  if(S.mode === "choice" && !S.opts){
+    const others = shuffle(db.words.filter(x => x.id !== w.id && x.zh !== w.zh)).slice(0,3).map(x => x.zh);
+    S.opts = shuffle([w.zh, ...others]);
+  }
+
+  let inner = `
+    <button class="speak" title="朗读" onclick="event.stopPropagation();speak('${jsArg(w.en)}')">
+      <svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M16 8.5a5 5 0 0 1 0 7"/><path d="M19 6a9 9 0 0 1 0 12"/></svg>
+    </button>`;
+
+  if(S.mode === "learn"){
+    inner += `<div class="en ${w.en.length>16?"small":""}">${esc(w.en)}</div>`;
+    if(w.ipa) inner += `<div class="ipa">${esc(w.ipa)}</div>`;
+    if(S.revealed){
+      inner += `<div class="zh-line">${esc(w.zh)}</div>`;
+      if(w.ex) inner += `<div class="ex"><b>${esc(w.ex)}</b><br>${esc(w.exZh||"")}</div>`;
+    }else{
+      inner += `<div class="hint">先在心里说出中文意思，再翻卡（空格键）</div>`;
+    }
+  }
+
+  if(S.mode === "spell"){
+    inner += `<div class="zh-line">${esc(w.zh)}</div>`;
+    if(w.ipa) inner += `<div class="ipa">${esc(w.ipa)}</div>`;
+    inner += `<div class="hint">首字母：<b style="font-size:16px;color:var(--text)">${esc(w.en[0])}</b> · 共 ${w.en.replace(/\s/g,"").length} 个字母（不含空格）</div>`;
+    inner += `<input class="answer-input" id="ansInput" placeholder="在此输入英文" autocomplete="off" spellcheck="false" ${S.answered?"disabled":""}>`;
+    if(S.answered){
+      inner += `<div class="verdict ${S.lastOK?"ok":"no"}">${S.lastOK?"✓ 正确":"✗ 正确答案：" + esc(w.en)}</div>`;
+    }
+  }
+
+  if(S.mode === "listen"){
+    inner += `<div class="zh-line" style="font-size:17px;color:var(--muted)">听发音，写出英文单词</div>`;
+    inner += `<div style="margin:18px 0"><button class="btn ghost" onclick="speak('${jsArg(w.en)}')">🔊 再听一次</button></div>`;
+    inner += `<input class="answer-input" id="ansInput" placeholder="在此输入你听到的单词" autocomplete="off" spellcheck="false" ${S.answered?"disabled":""}>`;
+    if(S.answered) inner += `<div class="verdict ${S.lastOK?"ok":"no"}">${S.lastOK?"✓ 正确":"✗ 正确答案：" + esc(w.en)}</div>`;
+  }
+
+  if(S.mode === "choice"){
+    inner += `<div class="en ${w.en.length>16?"small":""}">${esc(w.en)}</div>`;
+    if(w.ipa) inner += `<div class="ipa">${esc(w.ipa)}</div>`;
+    inner += `<div class="opts">${S.opts.map((o,k) => {
+      let cls = "opt";
+      if(S.answered){
+        if(o === w.zh) cls += " right";
+        else if(k === S.picked) cls += " wrong";
+      }
+      return `<button class="${cls}" ${S.answered?"disabled":""} onclick="pickOpt(${k})">${esc(o)}</button>`;
+    }).join("")}</div>`;
+  }
+
+  // 底部按钮
+  let bottom = "";
+  if(S.mode === "learn"){
+    if(!S.revealed){
+      bottom = `<div style="display:flex;gap:10px;margin-top:18px">
+        <button class="btn primary" style="flex:1" onclick="reveal()">显示答案（空格）</button>
+        <button class="btn ghost" onclick="rate(0)">不认识</button></div>`;
+    }else{
+      bottom = `<div class="rating">
+        <button class="r0" onclick="rate(0)">忘记<small>重来</small></button>
+        <button class="r1" onclick="rate(1)">模糊<small>1天</small></button>
+        <button class="r2" onclick="rate(2)">记得<small>间隔×2.5</small></button>
+        <button class="r3" onclick="rate(3)">很熟<small>间隔×3</small></button></div>`;
+    }
+  }else if(S.mode === "spell" || S.mode === "listen"){
+    if(!S.answered){
+      bottom = `<div style="display:flex;gap:10px;margin-top:18px">
+        <button class="btn primary" style="flex:1" onclick="checkSpell()">提交（回车）</button>
+        <button class="btn ghost" onclick="showSpellAnswer()">不会，看答案</button></div>`;
+    }else{
+      bottom = S.lastOK
+        ? `<div class="rating" style="grid-template-columns:1fr 1fr">
+             <button class="r2" onclick="rate(2)">记住了<small>继续</small></button>
+             <button class="r3" onclick="rate(3)">太简单<small>拉长间隔</small></button></div>`
+        : `<div class="rating" style="grid-template-columns:1fr 1fr">
+             <button class="r0" onclick="rate(0)">再来一次<small>今天重排</small></button>
+             <button class="r1" onclick="rate(1)">勉强记住<small>1天</small></button></div>`;
+    }
+  }else if(S.mode === "choice"){
+    if(S.answered){
+      bottom = S.lastOK
+        ? `<div class="rating" style="grid-template-columns:1fr 1fr">
+             <button class="r2" onclick="rate(2)">记住了<small>继续</small></button>
+             <button class="r3" onclick="rate(3)">太简单<small>拉长间隔</small></button></div>`
+        : `<div class="rating" style="grid-template-columns:1fr 1fr">
+             <button class="r0" onclick="rate(0)">再来一次<small>今天重排</small></button>
+             <button class="r1" onclick="rate(1)">勉强记住<small>1天</small></button></div>`;
+    }
+  }
+
+  const tappable = (S.mode === "learn" && !S.revealed) ? "tap" : "";
+  $("#studyBody").innerHTML = `
+    <div class="study-top">
+      <span class="chip">${S.i+1} / ${S.queue.length}</span>
+      <div class="bar"><i style="width:${prog}%"></i></div>
+      <button class="icon-btn" title="退出" onclick="quitSession()">
+        <svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
+    </div>
+    <div class="qcard ${tappable}" ${tappable?'onclick="reveal()"':''}>${inner}</div>
+    ${bottom}
+    <div style="text-align:center;margin-top:14px;color:var(--muted);font-size:12px">
+      正确答案 ${S.correct} · 错误 ${S.wrong}
+      <span class="kbd-hint"> · 快捷键：空格翻卡 / 1-4 评分 / 回车提交</span>
+    </div>`;
+
+  const inp = $("#ansInput");
+  if(inp){
+    inp.focus();
+    inp.onkeydown = e => { if(e.key === "Enter"){ e.preventDefault(); checkSpell(); } };
+    if(S.mode === "listen" && db.settings.autoSpeak && !S.answered) speak(w.en);
+  }
+}
+
+function reveal(){
+  S.revealed = true;
+  const w = S.queue[S.i];
+  if(db.settings.autoSpeak) speak(w.en);
+  renderCard();
+}
+
+function pickOpt(k){
+  if(S.answered) return;
+  const w = S.queue[S.i];
+  S.answered = true; S.picked = k;
+  S.lastOK = S.opts[k] === w.zh;
+  S.lastOK ? S.correct++ : S.wrong++;
+  if(!S.lastOK) speak(w.en);
+  renderCard();
+}
+
+function norm(s){ return String(s||"").toLowerCase().replace(/[^a-z0-9]+/g," ").trim(); }
+
+function checkSpell(){
+  if(S.answered) return;
+  const w = S.queue[S.i];
+  const inp = $("#ansInput");
+  const val = inp ? inp.value : "";
+  if(!val.trim()){ toast("先输入答案"); return; }
+  const ok = norm(val) === norm(w.en);
+  S.answered = true; S.lastOK = ok;
+  ok ? S.correct++ : S.wrong++;
+  if(!ok) speak(w.en);
+  renderCard();
+}
+
+function showSpellAnswer(){
+  S.answered = true; S.lastOK = false; S.wrong++;
+  const w = S.queue[S.i];
+  speak(w.en);
+  renderCard();
+}
+
+function rate(q){
+  const w = S.queue[S.i];
+  const isNew = !db.prog[w.id];
+  const p = schedule(w.id, q);
+
+  const L = db.log[TODAY()] || (db.log[TODAY()] = { new:0, rev:0, correct:0, total:0 });
+  L.total = (L.total || 0) + 1;
+  if(S.lastOK) L.correct = (L.correct || 0) + 1;
+  if(isNew) L.new = (L.new || 0) + 1; else L.rev = (L.rev || 0) + 1;
+  saveDB();
+
+  if(q === 0) S.queue.push(w);          // 没记住：本轮末尾再来一次
+  S.i++; S.revealed = false; S.answered = false; S.lastOK = null; S.picked = null; S.opts = null;
+  renderCard();
+}
+
+function quitSession(){
+  S = null;
+  go("home");
+}
+
+function finishSession(){
+  const total = S.correct + S.wrong;
+  const acc = total ? Math.round(S.correct/total*100) : 0;
+  $("#studyBody").innerHTML = `
+    <div class="qcard" style="min-height:280px">
+      <div style="font-size:46px">🎯</div>
+      <div style="font-size:20px;font-weight:800;margin-top:12px">本轮完成</div>
+      <div style="color:var(--muted);margin-top:8px">共 ${total} 次作答 · 正确率 <b style="color:${acc>=80?'var(--ok)':'var(--warn)'}">${acc}%</b></div>
+      <div style="color:var(--muted);font-size:13px;margin-top:6px">连续打卡 ${streak()} 天 · 今日累计 ${todayLog().total||0} 次</div>
+      <div style="display:flex;gap:10px;margin-top:20px;flex-wrap:wrap;justify-content:center">
+        <button class="btn primary" onclick="startSession('${S.mode}')">再来一轮</button>
+        <button class="btn ghost" onclick="go('stats')">看统计</button>
+        <button class="btn line" onclick="go('home')">回首页</button>
+      </div>
+    </div>`;
+  S = null;
+  renderSide();
+}
+
+/* ============================================================
+   6. 词库
+   ============================================================ */
+let libFilter = { q:"", field:"", status:"", level:"" };
+function renderLibrary(){
+  const fields = [...new Set([...FIELDS, ...db.words.map(w=>w.field)])];
+  $("#view-library").innerHTML = `
+    <h1 class="h1">词库</h1>
+    <p class="sub">共 ${db.words.length} 个术语 · 可以自己添加、编辑、批量导入</p>
+    <div class="toolbar">
+      <input type="search" id="libQ" placeholder="搜索英文 / 中文 / 例句" value="${esc(libFilter.q)}">
+      <select id="libField">
+        <option value="">全部方向</option>
+        ${fields.map(f=>`<option ${libFilter.field===f?"selected":""}>${f}</option>`).join("")}
+      </select>
+      <select id="libStatus">
+        <option value="">全部状态</option>
+        <option value="new" ${libFilter.status==="new"?"selected":""}>未开始</option>
+        <option value="learning" ${libFilter.status==="learning"?"selected":""}>学习中</option>
+        <option value="review" ${libFilter.status==="review"?"selected":""}>复习中</option>
+        <option value="mastered" ${libFilter.status==="mastered"?"selected":""}>已掌握</option>
+      </select>
+      <button class="btn primary" onclick="openEditor()">+ 添加</button>
+      <button class="btn ghost" onclick="openImport()">批量导入</button>
+      <button class="btn line" onclick="exportCSV()">导出CSV</button>
+    </div>
+    <div class="wlist" id="wlist"></div>`;
+
+  const q = $("#libQ"), f = $("#libField"), s = $("#libStatus");
+  q.oninput = () => { libFilter.q = q.value; drawList(); };
+  f.onchange = () => { libFilter.field = f.value; drawList(); };
+  s.onchange = () => { libFilter.status = s.value; drawList(); };
+  drawList();
+}
+
+function drawList(){
+  const kw = libFilter.q.trim().toLowerCase();
+  let list = db.words.filter(w => {
+    if(libFilter.field && w.field !== libFilter.field) return false;
+    if(libFilter.status && statusOf(w.id) !== libFilter.status) return false;
+    if(kw){
+      const s = [w.en,w.zh,w.ex,w.exZh,w.field].join(" ").toLowerCase();
+      if(!s.includes(kw)) return false;
+    }
+    return true;
+  });
+  const chipOf = st => ({new:["new","未开始"],learning:["learn","学习中"],review:["rev","复习中"],mastered:["master","已掌握"]}[st]);
+  const box = $("#wlist");
+  if(!list.length){ box.innerHTML = `<div class="empty">没有匹配的词条</div>`; return; }
+  box.innerHTML = list.map(w => {
+    const st = statusOf(w.id); const [cls,txt] = chipOf(st);
+    const p = db.prog[w.id];
+    return `<div class="wrow">
+      <div class="l">
+        <div><span class="en">${esc(w.en)}</span>${w.ipa?`<span class="ipa">${esc(w.ipa)}</span>`:""}
+          <span class="chip ${cls}" style="margin-left:6px">${txt}</span>
+          <span class="chip" style="margin-left:4px">${esc(w.field||"未分类")}</span></div>
+        <div class="zh">${esc(w.zh)}${p&&p.due?` · 下次复习 ${p.due}`:""}</div>
+        ${w.ex?`<div class="exs">${esc(w.ex)}</div>`:""}
+      </div>
+      <div class="r">
+        <button class="icon-btn" title="朗读" onclick="speak('${jsArg(w.en)}')">
+          <svg viewBox="0 0 24 24"><path d="M11 5 6 9H3v6h3l5 4z"/><path d="M16 8.5a5 5 0 0 1 0 7"/></svg></button>
+        <button class="icon-btn" title="编辑" onclick="openEditor('${jsArg(w.id)}')">
+          <svg viewBox="0 0 24 24"><path d="M4 20h4L20 8l-4-4L4 16z"/></svg></button>
+        <button class="icon-btn" title="删除" onclick="delWord('${jsArg(w.id)}')">
+          <svg viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></svg></button>
+      </div>
+    </div>`;
+  }).join("");
+}
+
+function openEditor(id){
+  const w = id ? db.words.find(x => x.id === id) : {en:"",ipa:"",pos:"",zh:"",ex:"",exZh:"",field:FIELDS[0],level:1};
+  const fields = [...new Set([...FIELDS, ...db.words.map(x=>x.field)])];
+  modal(`
+    <div class="box">
+      <h3 style="margin:0 0 16px">${id?"编辑词条":"添加词条"}</h3>
+      <div class="row2">
+        <div class="field"><label>英文 *</label><input id="f_en" value="${esc(w.en)}" placeholder="operational amplifier"></div>
+        <div class="field"><label>音标</label><input id="f_ipa" value="${esc(w.ipa||"")}" placeholder="/ˌɒpəˈreɪʃənl ˈæmplɪfaɪə/"></div>
+      </div>
+      <div class="row2">
+        <div class="field"><label>中文 *</label><input id="f_zh" value="${esc(w.zh)}" placeholder="运算放大器"></div>
+        <div class="field"><label>词性</label><input id="f_pos" value="${esc(w.pos||"")}" placeholder="n."></div>
+      </div>
+      <div class="field"><label>英文例句</label><input id="f_ex" value="${esc(w.ex||"")}" placeholder="The operational amplifier is configured as a buffer."></div>
+      <div class="field"><label>例句译文</label><input id="f_exZh" value="${esc(w.exZh||"")}" placeholder="该运放连接成缓冲器。"></div>
+      <div class="row2">
+        <div class="field"><label>方向</label><select id="f_field">${fields.map(f=>`<option ${w.field===f?"selected":""}>${f}</option>`).join("")}</select></div>
+        <div class="field"><label>难度</label><select id="f_level">
+          <option value="1" ${w.level==1?"selected":""}>1 基础</option>
+          <option value="2" ${w.level==2?"selected":""}>2 进阶</option>
+          <option value="3" ${w.level==3?"selected":""}>3 面试高频</option></select></div>
+      </div>
+      <div style="display:flex;gap:10px;justify-content:flex-end;margin-top:8px">
+        <button class="btn line" onclick="closeModal()">取消</button>
+        <button class="btn primary" onclick="saveEditor('${id||""}')">保存</button>
+      </div>
+    </div>`);
+  setTimeout(()=>$("#f_en").focus(), 50);
+}
+
+function saveEditor(id){
+  const en = $("#f_en").value.trim();
+  const zh = $("#f_zh").value.trim();
+  if(!en || !zh){ toast("英文和中文为必填"); return; }
+  const nid = uid(en);
+  const data = {
+    id: nid, en,
+    ipa: $("#f_ipa").value.trim(), pos: $("#f_pos").value.trim(), zh,
+    ex: $("#f_ex").value.trim(), exZh: $("#f_exZh").value.trim(),
+    field: $("#f_field").value, level: +$("#f_level").value
+  };
+  if(id && id !== nid){
+    db.words = db.words.filter(w => w.id !== id);
+    delete db.prog[id];
+  }
+  const i = db.words.findIndex(w => w.id === nid);
+  if(i >= 0) db.words[i] = { ...db.words[i], ...data };
+  else db.words.push({ ...data, custom:true });
+  saveDB(); closeModal(); drawList(); toast("已保存");
+}
+
+function delWord(id){
+  const w = db.words.find(x => x.id === id);
+  if(!confirm(`确定删除「${w.en}」吗？学习记录也会一并删除。`)) return;
+  db.words = db.words.filter(x => x.id !== id);
+  delete db.prog[id];
+  saveDB(); drawList(); renderSide(); toast("已删除");
+}
+
+function openImport(){
+  modal(`<div class="box">
+    <h3 style="margin:0 0 8px">批量导入</h3>
+    <p class="tips" style="margin-bottom:10px">每行一个词，用竖线分隔：<br>
+      <code>英文 | 中文 | 音标 | 英文例句 | 例句译文 | 方向</code><br>
+      最少填前两列，其余可省略。</p>
+    <div class="field"><textarea id="impText" placeholder="voltage | 电压 | /ˈvəʊltɪdʒ/ | The voltage is five volts. | 电压是5伏 | 电路基础"></textarea></div>
+    <div style="display:flex;gap:10px;justify-content:flex-end">
+      <button class="btn line" onclick="closeModal()">取消</button>
+      <button class="btn primary" onclick="doImport()">导入</button>
+    </div></div>`);
+}
+function doImport(){
+  const lines = $("#impText").value.split(/\r?\n/).map(s=>s.trim()).filter(Boolean);
+  let ok = 0;
+  lines.forEach(line => {
+    const c = line.split("|").map(s=>s.trim());
+    if(c.length < 2 || !c[0] || !c[1]) return;
+    const id = uid(c[0]);
+    if(db.words.some(w => w.id === id)) return;
+    db.words.push({ id, en:c[0], zh:c[1], ipa:c[2]||"", ex:c[3]||"", exZh:c[4]||"",
+                    field:c[5]||"学术与面试", pos:"", level:2, custom:true });
+    ok++;
+  });
+  saveDB(); closeModal(); drawList(); toast(`成功导入 ${ok} 条`);
+}
+
+function exportCSV(){
+  const rows = [["英文","音标","词性","中文","英文例句","例句译文","方向","状态"]];
+  db.words.forEach(w => rows.push([w.en,w.ipa||"",w.pos||"",w.zh,w.ex||"",w.exZh||"",w.field||"",statusOf(w.id)]));
+  const csv = "\uFEFF" + rows.map(r => r.map(x => `"${String(x).replace(/"/g,'""')}"`).join(",")).join("\r\n");
+  download(csv, `EE术语库_${TODAY()}.csv`, "text/csv;charset=utf-8");
+}
+
+function download(content, name, type){
+  const blob = new Blob([content], {type: type || "text/plain;charset=utf-8"});
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(blob); a.download = name;
+  document.body.appendChild(a); a.click(); a.remove();
+  setTimeout(()=>URL.revokeObjectURL(a.href), 3000);
+}
+
+/* ============================================================
+   7. 统计
+   ============================================================ */
+function renderStats(){
+  const total = db.words.length;
+  const byStatus = {new:0,learning:0,review:0,mastered:0};
+  db.words.forEach(w => byStatus[statusOf(w.id)]++);
+  const t = todayLog();
+  const days = Object.keys(db.log).sort();
+  const sumAll = Object.values(db.log).reduce((a,b)=>a+(b.total||0),0);
+
+  // 近 90 天热力图
+  let cells = "";
+  const start = addDays(new Date(), -89);
+  for(let k=0;k<90;k++){
+    const d = addDays(start, k), key = ymd(d);
+    const n = (db.log[key] && db.log[key].total) || 0;
+    const lvl = n===0?"":n<5?"l1":n<15?"l2":n<30?"l3":"l4";
+    cells += `<i class="${lvl}" title="${key}：${n} 次"></i>`;
+  }
+
+  $("#view-stats").innerHTML = `
+    <h1 class="h1">学习统计</h1>
+    <p class="sub">累计练习 ${sumAll} 次 · 连续打卡 ${streak()} 天 · 有记录 ${days.length} 天</p>
+
+    <div class="grid g4" style="margin-bottom:16px">
+      <div class="stat"><div class="k">词库总量</div><div class="v">${total}</div></div>
+      <div class="stat"><div class="k">已掌握</div><div class="v" style="color:var(--ok)">${byStatus.mastered}</div></div>
+      <div class="stat"><div class="k">复习中</div><div class="v" style="color:#6d4aff">${byStatus.review}</div></div>
+      <div class="stat"><div class="k">未开始</div><div class="v" style="color:var(--muted)">${byStatus.new}</div></div>
+    </div>
+
+    <div class="grid g2">
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:14px">近 90 天练习热力图</div>
+        <div class="heat">${cells}</div>
+        <div class="legend">少 <i style="background:var(--chip)"></i><i class="l1" style="background:rgba(47,111,237,.25)"></i>
+          <i style="background:rgba(47,111,237,.5)"></i><i style="background:rgba(47,111,237,.75)"></i>
+          <i style="background:var(--brand)"></i> 多</div>
+      </div>
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:14px">今天</div>
+        <div class="tips">
+          练习 <b>${t.total||0}</b> 次 · 正确 <b>${t.correct||0}</b> 次 ·
+          正确率 <b>${pct(t.correct||0, t.total||0)}%</b><br>
+          新学 <b>${t.new||0}</b> 个 · 复习 <b>${t.rev||0}</b> 个<br>
+          待复习 <b>${dueReviews().length}</b> 个 · 新词额度 <b>${todayNewQuota()}</b> 个
+        </div>
+        <div style="font-weight:700;margin:18px 0 10px">各方向掌握情况</div>
+        ${FIELDS.map(f => {
+          const ws = db.words.filter(w=>w.field===f);
+          const m = ws.filter(w=>statusOf(w.id)==="mastered").length;
+          return `<div class="fbar"><div class="t"><span>${f}</span><span style="color:var(--muted)">${m}/${ws.length}</span></div>
+            <div class="track"><i style="width:${pct(m,ws.length)}%"></i></div></div>`;
+        }).join("")}
+      </div>
+    </div>`;
+  renderSide();
+}
+
+/* ============================================================
+   8. 面试
+   ============================================================ */
+let IV = { timer:null, left:60, word:null };
+
+const TEMPLATES = [
+  ["请用英语做 1 分钟自我介绍", "Good morning, professors. My name is <em>Li Ming</em>. I am a senior student majoring in <em>Electronic and Information Engineering</em> at <em>XX University</em>. My GPA ranks <em>top 5%</em> in my major, and I have been awarded the <em>national scholarship</em> twice. I am particularly interested in <em>signal processing and embedded systems</em>. Thank you for your time."],
+  ["介绍你做过的项目", "My project is a <em>low-power environmental monitoring node</em>. It samples temperature and humidity, and sends the data to a cloud platform through <em>NB-IoT</em>. I was responsible for the <em>circuit design and the firmware</em>. The main challenge was power consumption, so I used <em>duty-cycle control</em> and reduced the average current to <em>under 20 microamperes</em>."],
+  ["你的毕业设计/论文做什么", "My thesis focuses on <em>fault diagnosis of analog circuits</em>. I built a simulation model in MATLAB, generated fault features, and trained a <em>small neural network</em> to classify six fault types. The accuracy reached <em>94%</em> on the test set."],
+  ["为什么选择我们学校/这个方向", "Three reasons. First, your group is well known for <em>mixed-signal IC design</em>, which matches my interest. Second, the <em>laboratory</em> has excellent measurement equipment. Third, I believe I can contribute to the ongoing <em>low-power sensor</em> project with my experience."],
+  ["读研期间的规划", "In the first year I will take core courses and finish the <em>literature review</em>. In the second year I plan to publish one <em>conference paper</em> and improve my <em>English academic writing</em>. In the third year I hope to complete a <em>prototype</em> and prepare my thesis."],
+  ["没听懂 / 不会回答时", "I am sorry, could you please repeat the question more slowly? / I am not familiar with that term, but I would guess it means <em>...</em>. I will look it up after the interview."],
+  ["描述一个你解决过的技术问题", "Once the system kept <em>resetting randomly</em>. I checked the power supply with an oscilloscope and found a <em>voltage drop</em> caused by the motor. I added a <em>decoupling capacitor</em> and separated the analog and digital grounds. The problem disappeared."],
+  ["你的优缺点", "I am <em>patient and detail-oriented</em>, which helps me debug hardware for hours. My weakness is that I sometimes spend too long on <em>optimization</em>; I am learning to set a clear deadline for each task."],
+  ["你还有什么问题想问我们", "Yes. Could you tell me what <em>research topics</em> your group is focusing on next year? And is there any chance for a master student to join the <em>industrial project</em>?"],
+  ["常见追问句式", "Could you explain the <em>principle</em> of ...? / What is the difference between ... and ...? / How did you <em>verify</em> your result? / What was the <em>bottleneck</em> of your design?"]
+];
+
+function renderInterview(){
+  $("#view-interview").innerHTML = `
+    <h1 class="h1">面试训练</h1>
+    <p class="sub">用英文把术语"讲出来"，才是复试真正考的能力</p>
+
+    <div class="card" style="margin-bottom:16px">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
+        <b style="font-size:16px">60 秒英文解释挑战</b>
+        <span class="timer" id="ivTimer">60s</span>
+      </div>
+      <div class="iv-card" id="ivCard">
+        <div style="color:var(--muted)">点击下方按钮，随机抽一个术语，用英文解释它的含义和用途</div>
+      </div>
+      <div style="display:flex;gap:10px;margin-top:16px;flex-wrap:wrap">
+        <button class="btn primary" onclick="ivNext()">抽一个词</button>
+        <button class="btn ghost" onclick="ivHint()">看提示</button>
+        <button class="btn line" onclick="ivSpeak()">朗读</button>
+      </div>
+    </div>
+
+    <div class="card">
+      <div style="font-weight:700;margin-bottom:6px">复试常用句式模板</div>
+      <div class="tips" style="margin-bottom:14px">照着填空，练到能脱口而出。斜体处替换成你自己的信息。</div>
+      ${TEMPLATES.map(([q,a]) => `<div class="tpl"><div class="q">${q}</div><div class="a">${a}</div></div>`).join("")}
+    </div>`;
+}
+
+function ivNext(){
+  const pool = db.words.filter(w => statusOf(w.id) === "mastered");
+  const src = pool.length >= 5 ? pool : db.words;
+  IV.word = src[Math.floor(Math.random()*src.length)];
+  $("#ivCard").innerHTML = `
+    <div class="en">${esc(IV.word.en)}</div>
+    <div class="ipa">${esc(IV.word.ipa||"")}</div>
+    <div style="color:var(--muted);font-size:13.5px;margin-top:14px">用英文解释它是什么、用在哪里（60 秒）</div>`;
+  IV.left = 60;
+  clearInterval(IV.timer);
+  $("#ivTimer").textContent = "60s";
+  IV.timer = setInterval(() => {
+    IV.left--;
+    const el = $("#ivTimer"); if(!el){ clearInterval(IV.timer); return; }
+    el.textContent = IV.left + "s";
+    if(IV.left <= 0){ clearInterval(IV.timer); el.textContent = "时间到"; }
+  }, 1000);
+  speak(IV.word.en);
+}
+
+function ivHint(){
+  if(!IV.word){ toast("先抽一个词"); return; }
+  $("#ivCard").innerHTML = `
+    <div class="en" style="font-size:22px">${esc(IV.word.en)}</div>
+    <div class="zh-line">${esc(IV.word.zh)}</div>
+    <div class="ex"><b>${esc(IV.word.ex||"")}</b><br>${esc(IV.word.exZh||"")}</div>`;
+}
+
+function ivSpeak(){ if(IV.word) speak(IV.word.en); }
+
+/* ============================================================
+   9. 设置
+   ============================================================ */
+function renderSettings(){
+  loadVoices();
+  const en = voices.filter(v => /^en/i.test(v.lang));
+  $("#view-settings").innerHTML = `
+    <h1 class="h1">设置</h1>
+    <p class="sub">调整学习节奏、发音与数据备份</p>
+
+    <div class="grid g2">
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:14px">学习节奏</div>
+        <div class="field"><label>每日新词数</label>
+          <select id="s_new">${[5,10,15,20,30].map(n=>`<option ${db.settings.newPerDay===n?"selected":""}>${n}</option>`).join("")}</select></div>
+        <div class="field"><label>单轮最多复习数</label>
+          <select id="s_rev">${[40,80,120,200].map(n=>`<option ${db.settings.reviewCap===n?"selected":""}>${n}</option>`).join("")}</select></div>
+        <div class="field"><label>界面主题</label>
+          <select id="s_theme">
+            <option value="light" ${db.settings.theme==="light"?"selected":""}>浅色</option>
+            <option value="dark" ${db.settings.theme==="dark"?"selected":""}>深色</option>
+          </select></div>
+      </div>
+
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:14px">发音</div>
+        <div class="field"><label>语音（Edge 一般自带英文语音）</label>
+          <select id="s_voice"><option value="">自动选择</option>
+          ${en.map(v=>`<option value="${esc(v.name)}" ${db.settings.voice===v.name?"selected":""}>${esc(v.name)} (${v.lang})</option>`).join("")}
+          </select></div>
+        <div class="field"><label>语速：<span id="rateVal">${db.settings.rate}</span></label>
+          <input type="range" id="s_rate" min="0.5" max="1.3" step="0.05" value="${db.settings.rate}"></div>
+        <div class="field"><label>翻卡后自动朗读</label>
+          <select id="s_auto"><option value="1" ${db.settings.autoSpeak?"selected":""}>开启</option>
+          <option value="0" ${!db.settings.autoSpeak?"selected":""}>关闭</option></select></div>
+        <button class="btn ghost" style="width:100%" onclick="speak('operational amplifier')">试听</button>
+      </div>
+
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:14px">数据</div>
+        <div class="tips" style="margin-bottom:12px">数据保存在本机浏览器里。换电脑或清理浏览器前，<b>记得先导出备份</b>。</div>
+        <div style="display:flex;flex-direction:column;gap:9px">
+          <button class="btn line" onclick="exportJSON()">导出完整备份（含学习记录）</button>
+          <button class="btn line" onclick="$('#importFile').click()">导入备份文件</button>
+          <input type="file" id="importFile" accept=".json" class="hidden" onchange="importJSON(this)">
+          <button class="btn ghost" onclick="exportCSV()">导出词库 CSV</button>
+          <button class="btn ghost" onclick="resetProgress()">清空学习记录（保留词库）</button>
+          <button class="btn danger" onclick="resetAll()">恢复出厂设置</button>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:14px">安装到手机</div>
+        <div class="tips" style="margin-bottom:12px">
+          安装后会像普通 App 一样出现在桌面，<b>全屏打开、离线可用</b>。<br>
+          <b>安卓</b>：浏览器菜单 ⋮ →「安装应用 / 添加到主屏幕」；<br>
+          <b>iPhone</b>：Safari 底部「分享」→「添加到主屏幕」。
+        </div>
+        <button class="btn primary" style="width:100%" onclick="installApp()">一键安装 / 查看方法</button>
+        <div class="tips" style="margin-top:10px;font-size:12px">
+          当前状态：<b>${isInstalled() ? "已安装（独立窗口运行）" : "在浏览器中运行"}</b>
+        </div>
+      </div>
+
+      <div class="card">
+        <div style="font-weight:700;margin-bottom:14px">关于</div>
+        <div class="tips">
+          <b>EE 术语积累</b> 是一个纯本地的单页应用，不上传任何数据。<br>
+          创建时间：${db.meta.created} · 词库 ${db.words.length} 个术语<br><br>
+          <b>使用建议：</b>每天 10 分钟，新词 10 个 + 复习到期词；周末用"面试"页做一次 60 秒解释训练。<br><br>
+          想加自己的专业词？到"词库 → 添加"，或"批量导入"粘贴一整个列表。
+        </div>
+      </div>
+    </div>`;
+
+  $("#s_new").onchange = e => { db.settings.newPerDay = +e.target.value; saveDB(); renderSide(); toast("已保存"); };
+  $("#s_rev").onchange = e => { db.settings.reviewCap = +e.target.value; saveDB(); toast("已保存"); };
+  $("#s_theme").onchange = e => { db.settings.theme = e.target.value; saveDB(); applyTheme(); toast("已切换"); };
+  $("#s_voice").onchange = e => { db.settings.voice = e.target.value; saveDB(); };
+  $("#s_rate").oninput = e => { db.settings.rate = +e.target.value; $("#rateVal").textContent = e.target.value; saveDB(); };
+  $("#s_auto").onchange = e => { db.settings.autoSpeak = e.target.value === "1"; saveDB(); };
+}
+
+function exportJSON(){
+  download(JSON.stringify(db), `EE术语备份_${TODAY()}.json`, "application/json");
+  toast("已导出");
+}
+function importJSON(input){
+  const f = input.files[0]; if(!f) return;
+  const r = new FileReader();
+  r.onload = () => {
+    try{
+      const data = JSON.parse(r.result);
+      if(!data.words) throw new Error("格式不对");
+      if(!confirm("导入将覆盖当前全部数据，确定吗？")) return;
+      db = data;
+      db.settings = { ...DEFAULT_SETTINGS, ...(db.settings||{}) };
+      saveDB(); applyTheme(); go("home"); toast("导入成功");
+    }catch(e){ toast("导入失败：文件格式不正确"); }
+  };
+  r.readAsText(f);
+  input.value = "";
+}
+function resetProgress(){
+  if(!confirm("清空所有学习记录（词库保留）？")) return;
+  db.prog = {}; db.log = {}; saveDB(); renderSide(); toast("已清空学习记录");
+}
+function resetAll(){
+  if(!confirm("恢复出厂设置：词库、记录全部重置，确定吗？")) return;
+  db = blankDB(); saveDB(); applyTheme(); go("home"); toast("已重置");
+}
+
+/* ============================================================
+   10. 弹窗 / 主题 / 快捷键
+   ============================================================ */
+function modal(html){
+  $("#modalRoot").innerHTML = `<div class="modal" onclick="if(event.target===this)closeModal()">${html}</div>`;
+}
+function closeModal(){ $("#modalRoot").innerHTML = ""; }
+
+function applyTheme(){
+  document.documentElement.dataset.theme = db.settings.theme === "dark" ? "dark" : "light";
+}
+
+document.addEventListener("keydown", e => {
+  if($("#modalRoot").innerHTML) { if(e.key === "Escape") closeModal(); return; }
+  if(currentView !== "study" || !S || e.target.tagName === "INPUT") return;
+  if(e.key === " "){ e.preventDefault(); if(S.mode === "learn" && !S.revealed) reveal(); return; }
+  if(/^[1-4]$/.test(e.key) && S.mode === "learn" && S.revealed){ rate(+e.key - 1); }
+});
+
+/* ============================================================
+   11. 安装到手机 / PWA
+   ============================================================ */
+let deferredPrompt = null;
+window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferredPrompt = e; });
+
+function installApp(){
+  if(deferredPrompt){
+    deferredPrompt.prompt();
+    deferredPrompt.userChoice.then(() => { deferredPrompt = null; });
+  }else{
+    const ua = navigator.userAgent;
+    if(/iPhone|iPad|iPod/i.test(ua)) toast("Safari：点底部「分享」→「添加到主屏幕」");
+    else toast("浏览器菜单 ⋮ →「添加到主屏幕 / 安装应用」");
+  }
+}
+function isInstalled(){
+  try{
+    if(window.matchMedia && window.matchMedia("(display-mode: standalone)").matches) return true;
+    return !!(window.navigator && window.navigator.standalone === true);
+  }catch(e){ return false; }
+}
+
+/* Service Worker：https 或 localhost 下注册（file:// 打开时自动跳过，不影响使用） */
+const SW_SECURE = location.protocol === "https:" ||
+                  location.hostname === "localhost" ||
+                  location.hostname === "127.0.0.1";
+if("serviceWorker" in navigator && SW_SECURE){
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js").catch(() => {});
+  });
+}
+
+/* ============================================================
+   12. 启动
+   ============================================================ */
+loadDB();
+applyTheme();
+loadVoices();
+go("home");
+setTimeout(loadVoices, 400);
+</script>
+</body>
+</html>
